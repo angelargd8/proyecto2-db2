@@ -1,0 +1,31 @@
+_id,nombreCombo,items,precio,imagenCombo
+67fc5500ccdccd648ad5b591,Croissant y Chocolate Caliente,[ObjectId('67fc5500ccdccd648ad5b569')],7.81,https://dummyimage.com/65x88
+67fc5500ccdccd648ad5b592,Capuccino con galletas,[ObjectId('67fc5500ccdccd648ad5b562')],62.94,https://placekitten.com/618/701
+67fc5500ccdccd648ad5b593,Tostadas Francesas y Café negro,"[ObjectId('67fc5500ccdccd648ad5b573'), ObjectId('67fc5500ccdccd648ad5b558')]",78.75,https://placekitten.com/971/298
+67fc5500ccdccd648ad5b594,Combo Desayuno Clásico,"[ObjectId('67fc5500ccdccd648ad5b57a'), ObjectId('67fc5500ccdccd648ad5b52e'), ObjectId('67fc5500ccdccd648ad5b576')]",17.95,https://dummyimage.com/186x428
+67fc5500ccdccd648ad5b595,Muffin y LatteTardes Dulces: Pastel y Cappuccino,"[ObjectId('67fc5500ccdccd648ad5b549'), ObjectId('67fc5500ccdccd648ad5b55a')]",12.17,https://dummyimage.com/491x590
+67fc5500ccdccd648ad5b596,Brownie y Capuccino,"[ObjectId('67fc5500ccdccd648ad5b54c'), ObjectId('67fc5500ccdccd648ad5b540')]",1.55,https://picsum.photos/295/782
+67fc5500ccdccd648ad5b597,Tostadas Francesas y Café negro,"[ObjectId('67fc5500ccdccd648ad5b582'), ObjectId('67fc5500ccdccd648ad5b573'), ObjectId('67fc5500ccdccd648ad5b55f')]",16.71,https://picsum.photos/998/147
+67fc5500ccdccd648ad5b598,Muffin y LatteTardes Dulces: Pastel y Cappuccino,"[ObjectId('67fc5500ccdccd648ad5b58d'), ObjectId('67fc5500ccdccd648ad5b55b')]",34.02,https://picsum.photos/940/330
+67fc5500ccdccd648ad5b599,Brownie y Capuccino,[ObjectId('67fc5500ccdccd648ad5b584')],57.43,https://picsum.photos/57/844
+67fc5500ccdccd648ad5b59a,Combo Desayuno Clásico,"[ObjectId('67fc5500ccdccd648ad5b532'), ObjectId('67fc5500ccdccd648ad5b547')]",30.48,https://picsum.photos/293/510
+67fc5500ccdccd648ad5b59b,Panqueques y Chocolate Caliente,"[ObjectId('67fc5500ccdccd648ad5b544'), ObjectId('67fc5500ccdccd648ad5b556'), ObjectId('67fc5500ccdccd648ad5b58c')]",17.74,https://dummyimage.com/456x48
+67fc5500ccdccd648ad5b59c,Sandwich con Latte,"[ObjectId('67fc5500ccdccd648ad5b547'), ObjectId('67fc5500ccdccd648ad5b546'), ObjectId('67fc5500ccdccd648ad5b52e')]",27.02,https://placekitten.com/527/63
+67fc5500ccdccd648ad5b59d,Croissant y Chocolate Caliente,"[ObjectId('67fc5500ccdccd648ad5b547'), ObjectId('67fc5500ccdccd648ad5b53f'), ObjectId('67fc5500ccdccd648ad5b532')]",56.29,https://picsum.photos/580/742
+67fc5500ccdccd648ad5b59e,Bagel con Queso y Café Americano,[ObjectId('67fc5500ccdccd648ad5b54b')],20.66,https://dummyimage.com/363x570
+67fc5500ccdccd648ad5b59f,Sandwich con Latte,[ObjectId('67fc5500ccdccd648ad5b58c')],11.44,https://picsum.photos/842/949
+67fc5500ccdccd648ad5b5a0,Bagel con Queso y Café Americano,"[ObjectId('67fc5500ccdccd648ad5b56e'), ObjectId('67fc5500ccdccd648ad5b54c'), ObjectId('67fc5500ccdccd648ad5b540')]",39.24,https://placekitten.com/378/260
+67fc5500ccdccd648ad5b5a1,Panini y Espresso,"[ObjectId('67fc5500ccdccd648ad5b590'), ObjectId('67fc5500ccdccd648ad5b557'), ObjectId('67fc5500ccdccd648ad5b559')]",88.97,https://dummyimage.com/242x416
+67fc5500ccdccd648ad5b5a2,Muffin y LatteTardes Dulces: Pastel y Cappuccino,[ObjectId('67fc5500ccdccd648ad5b581')],79.74,https://dummyimage.com/249x34
+67fc5500ccdccd648ad5b5a3,Combo Desayuno Clásico,[ObjectId('67fc5500ccdccd648ad5b52f')],15.8,https://dummyimage.com/583x705
+67fc5500ccdccd648ad5b5a4,Sandwich con Latte,[ObjectId('67fc5500ccdccd648ad5b56d')],87.62,https://picsum.photos/860/581
+67fc5500ccdccd648ad5b5a5,Panini y Espresso,"[ObjectId('67fc5500ccdccd648ad5b57b'), ObjectId('67fc5500ccdccd648ad5b55c'), ObjectId('67fc5500ccdccd648ad5b57d')]",11.4,https://picsum.photos/291/838
+67fc5500ccdccd648ad5b5a6,Pizza Personal con Horchata,"[ObjectId('67fc5500ccdccd648ad5b57d'), ObjectId('67fc5500ccdccd648ad5b544'), ObjectId('67fc5500ccdccd648ad5b580')]",53.98,https://placekitten.com/992/870
+67fc5500ccdccd648ad5b5a7,Panini y Espresso,"[ObjectId('67fc5500ccdccd648ad5b573'), ObjectId('67fc5500ccdccd648ad5b558'), ObjectId('67fc5500ccdccd648ad5b58d')]",25.1,https://dummyimage.com/545x662
+67fc5500ccdccd648ad5b5a8,Hamburguesa con Papas y Soda,[ObjectId('67fc5500ccdccd648ad5b588')],24.92,https://picsum.photos/644/729
+67fc5500ccdccd648ad5b5a9,Panini y Espresso,"[ObjectId('67fc5500ccdccd648ad5b543'), ObjectId('67fc5500ccdccd648ad5b549'), ObjectId('67fc5500ccdccd648ad5b579')]",13.18,https://placekitten.com/755/411
+67fc5500ccdccd648ad5b5aa,Panqueques y Chocolate Caliente,[ObjectId('67fc5500ccdccd648ad5b587')],31.44,https://dummyimage.com/979x895
+67fc5500ccdccd648ad5b5ab,Pizza Personal con Horchata,[ObjectId('67fc5500ccdccd648ad5b562')],35.16,https://placekitten.com/62/411
+67fc5500ccdccd648ad5b5ac,Muffin y LatteTardes Dulces: Pastel y Cappuccino,"[ObjectId('67fc5500ccdccd648ad5b557'), ObjectId('67fc5500ccdccd648ad5b56b')]",99.26,https://dummyimage.com/258x874
+67fc5500ccdccd648ad5b5ad,Brownie y Capuccino,"[ObjectId('67fc5500ccdccd648ad5b534'), ObjectId('67fc5500ccdccd648ad5b532'), ObjectId('67fc5500ccdccd648ad5b582')]",13.11,https://picsum.photos/966/429
+67fc5500ccdccd648ad5b5ae,Croissant y Chocolate Caliente,"[ObjectId('67fc5500ccdccd648ad5b564'), ObjectId('67fc5500ccdccd648ad5b545')]",27.05,https://picsum.photos/458/823
