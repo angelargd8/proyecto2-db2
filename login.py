@@ -18,11 +18,14 @@ def login(usuarios, correo, contrasena):
         # Verificar la contraseña
         if usuario["contrasena"] == contrasena:
             nombre = usuario["nombre"]
+            tipoCuenta = usuario["tipoCuenta"]
             messagebox.showinfo("Inicio de sesión", "Bienvenido " + nombre)
-            return True
+            return tipoCuenta
+            
         else:
             messagebox.showerror("Error", "Contraseña incorrecta")
-            return False
+            
     else:
         messagebox.showerror("Error", "Usuario no encontrado")
-        return False
+        
+

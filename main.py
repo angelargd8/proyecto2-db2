@@ -22,6 +22,7 @@ resenias = db["resenias"]
 ordenes = db["ordenes"]
 usuarios = db["usuarios"]
 
+global tipoCuenta
 
 def iniciarSesion(): 
     correo = e2.get()
@@ -30,10 +31,34 @@ def iniciarSesion():
         messagebox.showerror("Error", "Por favor, complete todos los campos")
     else:
         #validar el correo y la contraseña
-        login(usuarios, correo, contrasena)
+        tipoCuenta = login(usuarios, correo, contrasena)
         
+        if tipoCuenta == "administrador":
+            
+            tab1= ttk.Frame(tab)
+            tab.add(tab1, text="agregar/eliminar restaurante")
+            tab2= ttk.Frame(tab)
+            tab.add(tab2, text="agregar/eliminar producto")
+            tab3= ttk.Frame(tab)
+            tab.add(tab3, text="agregar/eliminar/editar menu")
+            tab4= ttk.Frame(tab)
+            tab.add(tab4, text="agregar/eliminar usuarios de consultores")
 
-        
+        elif tipoCuenta == "consultor":
+            pass
+        elif tipoCuenta == "cliente":
+            pass
+        elif tipoCuenta == "mesero":
+            tab1= ttk.Frame(tab)
+            tab.add(tab1, text="ingreso de orden")
+            tab2= ttk.Frame(tab)
+            tab.add(tab2, text="consulta general")
+            tab3= ttk.Frame(tab)
+            tab.add(tab3, text="consulta individual")
+            tab4= ttk.Frame(tab)
+            tab.add(tab4, text="modificacion de datos")
+
+
 v = Tk()
 v.title("caféCITo ☕🍪")
 v.geometry("800x800")
@@ -61,15 +86,7 @@ tab.config(width="800", height="500")
 tab.place(x=10,y=150)
 
 
-tab1= ttk.Frame(tab)
-tab.add(tab1, text="ingreso de orden")
-tab2= ttk.Frame(tab)
-tab.add(tab2, text="consulta general")
-tab3= ttk.Frame(tab)
-tab.add(tab3, text="consulta individual")
-tab4= ttk.Frame(tab)
-tab.add(tab4, text="modificacion de datos")
-
 
 # v.resizable(0, 0)
+
 v.mainloop()
