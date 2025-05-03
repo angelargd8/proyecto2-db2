@@ -1,0 +1,294 @@
+[
+    {
+        "_id": "6816a3c7e14f767c9c094353",
+        "nombreCombo": "Panini y Espresso",
+        "items": [
+            "6816a3c7e14f767c9c0942fd",
+            "6816a3c7e14f767c9c09434f",
+            "6816a3c7e14f767c9c09431a"
+        ],
+        "precio": 83.15,
+        "imagenCombo": "https://placekitten.com/927/799"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094354",
+        "nombreCombo": "Brownie y Capuccino",
+        "items": [
+            "6816a3c7e14f767c9c094322"
+        ],
+        "precio": 49.21,
+        "imagenCombo": "https://placekitten.com/43/258"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094355",
+        "nombreCombo": "Combo Desayuno Cl\u00e1sico",
+        "items": [
+            "6816a3c7e14f767c9c094336",
+            "6816a3c7e14f767c9c09430d",
+            "6816a3c7e14f767c9c094307"
+        ],
+        "precio": 66.6,
+        "imagenCombo": "https://dummyimage.com/913x322"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094356",
+        "nombreCombo": "Pizza Personal con Horchata",
+        "items": [
+            "6816a3c7e14f767c9c09430a"
+        ],
+        "precio": 82.35,
+        "imagenCombo": "https://picsum.photos/388/1020"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094357",
+        "nombreCombo": "Bagel con Queso y Caf\u00e9 Americano",
+        "items": [
+            "6816a3c7e14f767c9c094317"
+        ],
+        "precio": 88.09,
+        "imagenCombo": "https://dummyimage.com/730x369"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094358",
+        "nombreCombo": "Muffin y LatteTardes Dulces: Pastel y Cappuccino",
+        "items": [
+            "6816a3c7e14f767c9c0942fb",
+            "6816a3c7e14f767c9c094330"
+        ],
+        "precio": 26.68,
+        "imagenCombo": "https://dummyimage.com/124x211"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094359",
+        "nombreCombo": "Panini y Espresso",
+        "items": [
+            "6816a3c7e14f767c9c094330"
+        ],
+        "precio": 75.09,
+        "imagenCombo": "https://placekitten.com/731/935"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09435a",
+        "nombreCombo": "Muffin y LatteTardes Dulces: Pastel y Cappuccino",
+        "items": [
+            "6816a3c7e14f767c9c094300"
+        ],
+        "precio": 33.89,
+        "imagenCombo": "https://dummyimage.com/770x373"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09435b",
+        "nombreCombo": "Capuccino con galletas",
+        "items": [
+            "6816a3c7e14f767c9c094307",
+            "6816a3c7e14f767c9c0942f8"
+        ],
+        "precio": 100.02,
+        "imagenCombo": "https://placekitten.com/412/865"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09435c",
+        "nombreCombo": "Combo Almuerzo Ejecutivo",
+        "items": [
+            "6816a3c7e14f767c9c09433d",
+            "6816a3c7e14f767c9c094336"
+        ],
+        "precio": 65.09,
+        "imagenCombo": "https://picsum.photos/931/726"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09435d",
+        "nombreCombo": "Muffin y LatteTardes Dulces: Pastel y Cappuccino",
+        "items": [
+            "6816a3c7e14f767c9c094333"
+        ],
+        "precio": 60.34,
+        "imagenCombo": "https://dummyimage.com/470x686"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09435e",
+        "nombreCombo": "Muffin y LatteTardes Dulces: Pastel y Cappuccino",
+        "items": [
+            "6816a3c7e14f767c9c094305"
+        ],
+        "precio": 38.8,
+        "imagenCombo": "https://dummyimage.com/812x611"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09435f",
+        "nombreCombo": "Panini y Espresso",
+        "items": [
+            "6816a3c7e14f767c9c0942f0"
+        ],
+        "precio": 31.67,
+        "imagenCombo": "https://dummyimage.com/88x695"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094360",
+        "nombreCombo": "Wrap Vegano con T\u00e9 Helado",
+        "items": [
+            "6816a3c7e14f767c9c094339"
+        ],
+        "precio": 9.08,
+        "imagenCombo": "https://picsum.photos/329/759"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094361",
+        "nombreCombo": "Capuccino con galletas",
+        "items": [
+            "6816a3c7e14f767c9c09432b",
+            "6816a3c7e14f767c9c09432e"
+        ],
+        "precio": 77.11,
+        "imagenCombo": "https://picsum.photos/64/399"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094362",
+        "nombreCombo": "Wrap Vegano con T\u00e9 Helado",
+        "items": [
+            "6816a3c7e14f767c9c09430f"
+        ],
+        "precio": 16.6,
+        "imagenCombo": "https://picsum.photos/860/63"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094363",
+        "nombreCombo": "Bagel con Queso y Caf\u00e9 Americano",
+        "items": [
+            "6816a3c7e14f767c9c094333",
+            "6816a3c7e14f767c9c094319"
+        ],
+        "precio": 23.46,
+        "imagenCombo": "https://picsum.photos/929/212"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094364",
+        "nombreCombo": "Capuccino con galletas",
+        "items": [
+            "6816a3c7e14f767c9c0942fd"
+        ],
+        "precio": 41.93,
+        "imagenCombo": "https://placekitten.com/669/680"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094365",
+        "nombreCombo": "Hamburguesa con Papas y Soda",
+        "items": [
+            "6816a3c7e14f767c9c0942f6",
+            "6816a3c7e14f767c9c094322",
+            "6816a3c7e14f767c9c094308"
+        ],
+        "precio": 81.84,
+        "imagenCombo": "https://dummyimage.com/235x927"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094366",
+        "nombreCombo": "Combo Almuerzo Ejecutivo",
+        "items": [
+            "6816a3c7e14f767c9c094306",
+            "6816a3c7e14f767c9c094308"
+        ],
+        "precio": 36.84,
+        "imagenCombo": "https://dummyimage.com/561x766"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094367",
+        "nombreCombo": "Muffin y LatteTardes Dulces: Pastel y Cappuccino",
+        "items": [
+            "6816a3c7e14f767c9c094348"
+        ],
+        "precio": 59.61,
+        "imagenCombo": "https://placekitten.com/488/231"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094368",
+        "nombreCombo": "Combo Desayuno Cl\u00e1sico",
+        "items": [
+            "6816a3c7e14f767c9c094344",
+            "6816a3c7e14f767c9c094307",
+            "6816a3c7e14f767c9c094352"
+        ],
+        "precio": 78.6,
+        "imagenCombo": "https://picsum.photos/476/508"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094369",
+        "nombreCombo": "Muffin y LatteTardes Dulces: Pastel y Cappuccino",
+        "items": [
+            "6816a3c7e14f767c9c094351",
+            "6816a3c7e14f767c9c09434a"
+        ],
+        "precio": 91.87,
+        "imagenCombo": "https://picsum.photos/461/201"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09436a",
+        "nombreCombo": "Muffin y LatteTardes Dulces: Pastel y Cappuccino",
+        "items": [
+            "6816a3c7e14f767c9c094310",
+            "6816a3c7e14f767c9c094333"
+        ],
+        "precio": 53.97,
+        "imagenCombo": "https://dummyimage.com/991x873"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09436b",
+        "nombreCombo": "Tostadas Francesas y Caf\u00e9 negro",
+        "items": [
+            "6816a3c7e14f767c9c09433c",
+            "6816a3c7e14f767c9c0942f0",
+            "6816a3c7e14f767c9c094304"
+        ],
+        "precio": 58.3,
+        "imagenCombo": "https://dummyimage.com/80x0"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09436c",
+        "nombreCombo": "Muffin y LatteTardes Dulces: Pastel y Cappuccino",
+        "items": [
+            "6816a3c7e14f767c9c094313"
+        ],
+        "precio": 78.84,
+        "imagenCombo": "https://picsum.photos/656/724"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09436d",
+        "nombreCombo": "Combo Almuerzo Ejecutivo",
+        "items": [
+            "6816a3c7e14f767c9c09431b",
+            "6816a3c7e14f767c9c094320",
+            "6816a3c7e14f767c9c094328"
+        ],
+        "precio": 78.75,
+        "imagenCombo": "https://dummyimage.com/884x679"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09436e",
+        "nombreCombo": "Wrap Vegano con T\u00e9 Helado",
+        "items": [
+            "6816a3c7e14f767c9c09432c"
+        ],
+        "precio": 23.37,
+        "imagenCombo": "https://picsum.photos/916/1003"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09436f",
+        "nombreCombo": "Combo Desayuno Cl\u00e1sico",
+        "items": [
+            "6816a3c7e14f767c9c094303",
+            "6816a3c7e14f767c9c094312"
+        ],
+        "precio": 16.38,
+        "imagenCombo": "https://picsum.photos/1014/562"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094370",
+        "nombreCombo": "Sandwich con Latte",
+        "items": [
+            "6816a3c7e14f767c9c0942f0",
+            "6816a3c7e14f767c9c09430b"
+        ],
+        "precio": 53.43,
+        "imagenCombo": "https://picsum.photos/868/952"
+    }
+]

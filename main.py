@@ -9,7 +9,7 @@ from tkinter import ttk
 from tkinter import messagebox
 from login import login
 
-uri = "mongodb+srv://angelargd8:TsTwymNjqBo7MysP@cluster0.wic81.mongodb.net"
+uri = ""
 client = MongoClient(uri)
 db = client["restaurante"]
 print("Conectado a la base de datos")

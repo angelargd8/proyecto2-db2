@@ -1,0 +1,5103 @@
+[
+    {
+        "_id": "6816a3c7e14f767c9c094385",
+        "nombre": "Samuel Wolf",
+        "email": "hsolomon@example.org",
+        "contrasena": "!*5OuIQsxg",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09438a",
+        "nombre": "Patrick Peterson",
+        "email": "terricarney@example.com",
+        "contrasena": "oVZjcw8#(4",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09438c",
+            "6816a3c7e14f767c9c09438b",
+            "6816a3c7e14f767c9c09438d"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09438f",
+        "nombre": "Sarah Dodson",
+        "email": "munozfrank@example.com",
+        "contrasena": "^q0*9SdoP%",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094390"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094392",
+        "nombre": "James Smith",
+        "email": "blackburndenise@example.org",
+        "contrasena": "d40BaIHn*_",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094393",
+            "6816a3c7e14f767c9c094394",
+            "6816a3c7e14f767c9c094396"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094398",
+        "nombre": "Misty Byrd",
+        "email": "johnnymullins@example.com",
+        "contrasena": "p+5AD5dP(+",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094399"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09439c",
+        "nombre": "Kaitlyn Jones",
+        "email": "dylanfox@example.org",
+        "contrasena": "v%NyZ3Mgx0",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09439d",
+            "6816a3c7e14f767c9c09439f",
+            "6816a3c7e14f767c9c0943a0",
+            "6816a3c7e14f767c9c09439e"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943a2",
+        "nombre": "George Garcia",
+        "email": "sarawoods@example.org",
+        "contrasena": "Q)F0bFmvMv",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943a6",
+        "nombre": "Francisco Reynolds",
+        "email": "christopher84@example.net",
+        "contrasena": "g1nU*gfm@#",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0943a7",
+            "6816a3c7e14f767c9c0943a9",
+            "6816a3c7e14f767c9c0943ab",
+            "6816a3c7e14f767c9c0943aa"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943ad",
+        "nombre": "Robert Morse",
+        "email": "kristenhorton@example.net",
+        "contrasena": "!xaCIYpT+5",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0943b1"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943b4",
+        "nombre": "Nichole Mack",
+        "email": "trujillokevin@example.org",
+        "contrasena": "(5z&ZaQzEO",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0943b8",
+            "6816a3c7e14f767c9c0943b7",
+            "6816a3c7e14f767c9c0943b5",
+            "6816a3c7e14f767c9c0943b6"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943ba",
+        "nombre": "Donald Livingston",
+        "email": "johnsonbecky@example.org",
+        "contrasena": "@2Q7vIUhAW",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0943bc",
+            "6816a3c7e14f767c9c0943be",
+            "6816a3c7e14f767c9c0943bd",
+            "6816a3c7e14f767c9c0943bb"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943c0",
+        "nombre": "Danielle Coleman",
+        "email": "tina30@example.org",
+        "contrasena": "+OZ823JvAb",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0943c1",
+            "6816a3c7e14f767c9c0943c2"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943c4",
+        "nombre": "Roberta Romero",
+        "email": "hmiller@example.com",
+        "contrasena": "d@f#1SxxQm",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0943c5"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943cb",
+        "nombre": "Lorraine Price DVM",
+        "email": "rogersrobin@example.com",
+        "contrasena": "@8XhdaRm1X",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0943cc"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943ce",
+        "nombre": "Alexis Campbell",
+        "email": "erik46@example.net",
+        "contrasena": "PF1nRTq&_8",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0943cf"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943d1",
+        "nombre": "Jennifer Larsen",
+        "email": "hrodriguez@example.org",
+        "contrasena": "_F)o9SztTT",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0943d3",
+            "6816a3c7e14f767c9c0943d4"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943d6",
+        "nombre": "Matthew Klein",
+        "email": "maddoxfrank@example.org",
+        "contrasena": "*pmEumDy4i",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943db",
+        "nombre": "Dr. Mark Garcia MD",
+        "email": "qbrown@example.net",
+        "contrasena": "7xhOZso&+z",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943e1",
+        "nombre": "Jonathan Lyons",
+        "email": "jgarcia@example.net",
+        "contrasena": "GhJ785Fik(",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0943e2",
+            "6816a3c7e14f767c9c0943e4",
+            "6816a3c7e14f767c9c0943e3"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943e6",
+        "nombre": "Mary Sanchez",
+        "email": "kmyers@example.com",
+        "contrasena": "%n!GfmXt!4",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943e9",
+        "nombre": "Julia Smith",
+        "email": "tgentry@example.net",
+        "contrasena": "@R)YnU6fQ3",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0943ec",
+            "6816a3c7e14f767c9c0943eb",
+            "6816a3c7e14f767c9c0943ed",
+            "6816a3c7e14f767c9c0943ea"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943ef",
+        "nombre": "Lisa Jones",
+        "email": "uboone@example.net",
+        "contrasena": "IjE9Jga4@4",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0943f1"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943f5",
+        "nombre": "Joseph Graves",
+        "email": "ybarker@example.net",
+        "contrasena": "W$^1Vbo2BK",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943fa",
+        "nombre": "Jennifer Summers",
+        "email": "turnerjason@example.net",
+        "contrasena": "^U1LLjw13f",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0943fc"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0943fe",
+        "nombre": "Michael Fields",
+        "email": "murraynicholas@example.net",
+        "contrasena": "SZ7+Ma#I(3",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094401",
+            "6816a3c7e14f767c9c094400"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094403",
+        "nombre": "Connor Campbell",
+        "email": "vasquezkaren@example.org",
+        "contrasena": "!#o6DfnHM%",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094404",
+            "6816a3c7e14f767c9c094405"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094407",
+        "nombre": "Donna Merritt",
+        "email": "valenzuelakimberly@example.net",
+        "contrasena": "#Ib3U$LkX%",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09440a"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09440c",
+        "nombre": "David Mendoza",
+        "email": "corey39@example.net",
+        "contrasena": "T2rS1Y8x%8",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09440d",
+            "6816a3c7e14f767c9c09440e",
+            "6816a3c7e14f767c9c094410",
+            "6816a3c7e14f767c9c09440f"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094412",
+        "nombre": "Mark Smith",
+        "email": "ruben96@example.com",
+        "contrasena": "Y+(8ATAevY",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094417",
+        "nombre": "Shannon Austin",
+        "email": "weberamber@example.org",
+        "contrasena": "%6fI2p(gc@",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094418"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09441b",
+        "nombre": "Anthony Montgomery",
+        "email": "elizabethrowe@example.org",
+        "contrasena": "a7OfUpR7(0",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094421",
+        "nombre": "Kimberly Green",
+        "email": "gerald88@example.com",
+        "contrasena": "TP5SNXuv&T",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094424",
+            "6816a3c7e14f767c9c094423",
+            "6816a3c7e14f767c9c094422"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094428",
+        "nombre": "Jessica Sutton",
+        "email": "johnhoward@example.net",
+        "contrasena": "IlSz#2Gy$z",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094429"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09442c",
+        "nombre": "Steven Robbins",
+        "email": "brianrogers@example.net",
+        "contrasena": "Z+CW9ZDura",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09442e"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094432",
+        "nombre": "Jacob Thomas",
+        "email": "ortizcaroline@example.net",
+        "contrasena": "53HmCt4T_3",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094433"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094435",
+        "nombre": "James Wright",
+        "email": "qmiller@example.net",
+        "contrasena": "pk9DNCsk#7",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094438",
+            "6816a3c7e14f767c9c094439",
+            "6816a3c7e14f767c9c094436",
+            "6816a3c7e14f767c9c094437"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09443b",
+        "nombre": "Wendy Jones",
+        "email": "susangomez@example.com",
+        "contrasena": "#Q0g7Wmbh!",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09443c",
+            "6816a3c7e14f767c9c09443d",
+            "6816a3c7e14f767c9c09443e"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094440",
+        "nombre": "Kristie Pearson",
+        "email": "benjaminzamora@example.org",
+        "contrasena": "mB&9RiuxIA",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094445",
+        "nombre": "Peter Griffin",
+        "email": "jenniferpacheco@example.com",
+        "contrasena": "%(Mj9fKdw$",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094448",
+            "6816a3c7e14f767c9c094447",
+            "6816a3c7e14f767c9c094446",
+            "6816a3c7e14f767c9c094449",
+            "6816a3c7e14f767c9c09444a"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09444c",
+        "nombre": "Donald Gonzalez",
+        "email": "samanthacarter@example.org",
+        "contrasena": "s*X1F01kjF",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09444d",
+            "6816a3c7e14f767c9c09444e"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094450",
+        "nombre": "Carol Green",
+        "email": "shernandez@example.org",
+        "contrasena": "!4UTh2Fh+w",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094451",
+            "6816a3c7e14f767c9c094453"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094455",
+        "nombre": "Tara Butler",
+        "email": "anita74@example.net",
+        "contrasena": "W*u^44hvNH",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094457",
+            "6816a3c7e14f767c9c094456"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094459",
+        "nombre": "Mark Lee",
+        "email": "brandonhunter@example.org",
+        "contrasena": "0%8J^UZfu%",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09445c",
+            "6816a3c7e14f767c9c09445b"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09445f",
+        "nombre": "Jeffrey Vasquez",
+        "email": "torresjerry@example.net",
+        "contrasena": "$!_5DhFws8",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094461",
+            "6816a3c7e14f767c9c094460"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094466",
+        "nombre": "Stacy Hughes",
+        "email": "gcochran@example.org",
+        "contrasena": "9g3PCWibb*",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09446c",
+        "nombre": "Joyce Wiley",
+        "email": "morganluke@example.net",
+        "contrasena": "_9JdE^)fGR",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09446e",
+            "6816a3c7e14f767c9c094470",
+            "6816a3c7e14f767c9c094471",
+            "6816a3c7e14f767c9c09446f"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094473",
+        "nombre": "Daniel Alexander",
+        "email": "schwartzkevin@example.net",
+        "contrasena": "VO7LbplDi!",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094474"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094476",
+        "nombre": "Katherine Johnson",
+        "email": "fowlerkevin@example.net",
+        "contrasena": "2AOHJ#Yg&W",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094477"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09447d",
+        "nombre": "Sandra Castaneda",
+        "email": "gary00@example.net",
+        "contrasena": "!OhG7St)^3",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09447f"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094483",
+        "nombre": "Peter Morales",
+        "email": "gomezsean@example.net",
+        "contrasena": "&)RBow_$c2",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094485"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094488",
+        "nombre": "Brian Robinson",
+        "email": "cynthiavaldez@example.com",
+        "contrasena": "R4X3No7x!#",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09448b",
+            "6816a3c7e14f767c9c09448a",
+            "6816a3c7e14f767c9c09448c"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09448e",
+        "nombre": "Lisa Riley",
+        "email": "laura03@example.com",
+        "contrasena": "%$UhB2Hk_q",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094492",
+        "nombre": "Donald Delgado",
+        "email": "aprilbutler@example.com",
+        "contrasena": "Q+7ZoUSnSf",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094495"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094497",
+        "nombre": "Erica Acevedo",
+        "email": "umcpherson@example.org",
+        "contrasena": "k^2Prbbkyc",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09449a",
+            "6816a3c7e14f767c9c09449b",
+            "6816a3c7e14f767c9c094499",
+            "6816a3c7e14f767c9c094498"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09449d",
+        "nombre": "Ian Morton",
+        "email": "cartersteven@example.net",
+        "contrasena": "+#4mQoAsxD",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09449e",
+            "6816a3c7e14f767c9c0944a1"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944a3",
+        "nombre": "Jacob Perry",
+        "email": "brandicabrera@example.org",
+        "contrasena": "+y!)Gao07)",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0944a4"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944a9",
+        "nombre": "Amy Morrison",
+        "email": "ygonzalez@example.org",
+        "contrasena": "+)52E(7m1N",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0944aa"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944ac",
+        "nombre": "Evelyn Davis",
+        "email": "dmurphy@example.org",
+        "contrasena": "%ZHvi5Fg2V",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0944ae",
+            "6816a3c7e14f767c9c0944ad"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944b0",
+        "nombre": "Roger Schroeder",
+        "email": "hgrant@example.net",
+        "contrasena": "44$Cq4Tp)6",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0944b1",
+            "6816a3c7e14f767c9c0944b3",
+            "6816a3c7e14f767c9c0944b2"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944b6",
+        "nombre": "Laura Marsh",
+        "email": "christopher83@example.org",
+        "contrasena": "O)PK7Rwi*+",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0944ba"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944bd",
+        "nombre": "Benjamin Gonzalez",
+        "email": "llloyd@example.com",
+        "contrasena": "3%5Mx@HM0s",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0944c1",
+            "6816a3c7e14f767c9c0944be"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944c3",
+        "nombre": "Justin Calhoun",
+        "email": "nicholasmathis@example.org",
+        "contrasena": "6CW$Pal@*6",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944c6",
+        "nombre": "Nicole Bautista",
+        "email": "williamsheather@example.org",
+        "contrasena": "B6DzfNA@(J",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0944c8",
+            "6816a3c7e14f767c9c0944c7"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944ca",
+        "nombre": "Jenna Perkins",
+        "email": "teresabenton@example.com",
+        "contrasena": "*adAMeYw(6",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944ce",
+        "nombre": "Andrea Smith",
+        "email": "kimeric@example.com",
+        "contrasena": "e)9*EVuCYk",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0944d0"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944d2",
+        "nombre": "Dalton Ellis",
+        "email": "rogersdominique@example.org",
+        "contrasena": "^*82eGiP02",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0944d3"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944d6",
+        "nombre": "William Kennedy",
+        "email": "jeremyramos@example.org",
+        "contrasena": "D(6umXfntv",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944d9",
+        "nombre": "Craig Flores",
+        "email": "tperez@example.com",
+        "contrasena": "6%00qNo^hj",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0944db"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944dd",
+        "nombre": "Joshua Rice",
+        "email": "nwilson@example.com",
+        "contrasena": "#3SO_Jsw23",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944e0",
+        "nombre": "Carlos Navarro",
+        "email": "smithpaul@example.com",
+        "contrasena": "I9S@Tx$0&7",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0944e2",
+            "6816a3c7e14f767c9c0944e3"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944e5",
+        "nombre": "Brian Lane",
+        "email": "lauracollins@example.net",
+        "contrasena": "@%neVsCr@7",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0944e7",
+            "6816a3c7e14f767c9c0944e9",
+            "6816a3c7e14f767c9c0944e8"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944ec",
+        "nombre": "Robert Baker",
+        "email": "grantmckinney@example.com",
+        "contrasena": "q5aXS2!)&4",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0944ed",
+            "6816a3c7e14f767c9c0944ef",
+            "6816a3c7e14f767c9c0944ee"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944f1",
+        "nombre": "Janice Wright",
+        "email": "anthonyhurst@example.org",
+        "contrasena": "4d2$J(sQ)u",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0944f2"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944f5",
+        "nombre": "Michael Carter",
+        "email": "ambergillespie@example.com",
+        "contrasena": "Omm3kNTtl@",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0944f6",
+            "6816a3c7e14f767c9c0944f7",
+            "6816a3c7e14f767c9c0944f8"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944fa",
+        "nombre": "Donna Brown",
+        "email": "joywood@example.org",
+        "contrasena": "nBg*1xJyoW",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0944fb",
+            "6816a3c7e14f767c9c0944fd"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0944ff",
+        "nombre": "Bethany Reid DVM",
+        "email": "russellkenneth@example.org",
+        "contrasena": "(u5vaGPbHf",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094500"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094502",
+        "nombre": "Robin Jones",
+        "email": "julia85@example.net",
+        "contrasena": "2!5QTtKfL1",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094503"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094505",
+        "nombre": "Lindsay Ramirez",
+        "email": "adavis@example.com",
+        "contrasena": "L&e@5yJnMK",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094509",
+        "nombre": "Wendy Williams",
+        "email": "christopherlee@example.com",
+        "contrasena": "E04Zphcb)9",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09450c",
+            "6816a3c7e14f767c9c09450a"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09450e",
+        "nombre": "Ryan Vang",
+        "email": "zbarry@example.net",
+        "contrasena": "k38R+kV+^B",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094515",
+        "nombre": "Brittany Clark",
+        "email": "travis81@example.org",
+        "contrasena": "sH9WIps_^e",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094519"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09451b",
+        "nombre": "Anthony Bryant",
+        "email": "gregorycummings@example.com",
+        "contrasena": "V)q0IBOqUT",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09451e",
+        "nombre": "Jennifer Aguilar",
+        "email": "heather10@example.org",
+        "contrasena": "L+5fzXlkNG",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094521",
+        "nombre": "Robin Anthony",
+        "email": "bryan88@example.com",
+        "contrasena": "9BLqR_AK+N",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094527",
+        "nombre": "Stephen Brooks",
+        "email": "baileyandrea@example.net",
+        "contrasena": "qluS7*Nt@$",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094529",
+            "6816a3c7e14f767c9c09452a",
+            "6816a3c7e14f767c9c09452b",
+            "6816a3c7e14f767c9c094528"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09452d",
+        "nombre": "Joshua Hernandez",
+        "email": "kelly40@example.com",
+        "contrasena": "B1^EQ%jH(c",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09452f",
+            "6816a3c7e14f767c9c094530"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094532",
+        "nombre": "Heather Frazier",
+        "email": "hsantiago@example.com",
+        "contrasena": "9_199TbvY$",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094536",
+            "6816a3c7e14f767c9c094533",
+            "6816a3c7e14f767c9c094535",
+            "6816a3c7e14f767c9c094534",
+            "6816a3c7e14f767c9c094537"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094539",
+        "nombre": "Jonathan Stuart",
+        "email": "bernardfrederick@example.com",
+        "contrasena": "a#4%3wIeZw",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09453d",
+        "nombre": "Michelle Fields",
+        "email": "christopher35@example.com",
+        "contrasena": "1$MX6KadKV",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094542",
+        "nombre": "Amy Martin",
+        "email": "holly87@example.net",
+        "contrasena": "+2uaHtb*90",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094543"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094547",
+        "nombre": "Emily Arnold",
+        "email": "rknight@example.com",
+        "contrasena": "O4CVexKu(%",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094549",
+            "6816a3c7e14f767c9c09454a"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09454c",
+        "nombre": "Austin Gonzalez",
+        "email": "ywilson@example.com",
+        "contrasena": "^Y3Gqg9*YS",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094551",
+        "nombre": "Christopher Potter",
+        "email": "torresalyssa@example.org",
+        "contrasena": "f2lDjBiw)N",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094552"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094557",
+        "nombre": "Amy Goodwin",
+        "email": "arodriguez@example.net",
+        "contrasena": "M8STwotN)s",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094559"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09455b",
+        "nombre": "Danny Hernandez",
+        "email": "chavezdeborah@example.net",
+        "contrasena": "&rGVWgqjl4",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09455d",
+            "6816a3c7e14f767c9c09455c",
+            "6816a3c7e14f767c9c09455e",
+            "6816a3c7e14f767c9c09455f"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094561",
+        "nombre": "Justin Perez",
+        "email": "dharvey@example.net",
+        "contrasena": "+W*0A%j^p9",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094562"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094566",
+        "nombre": "Melanie Myers",
+        "email": "brittany06@example.org",
+        "contrasena": "j3EG(d3j&Q",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094567",
+            "6816a3c7e14f767c9c094568"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09456b",
+        "nombre": "Mallory Boyer",
+        "email": "kirbymichael@example.com",
+        "contrasena": "+t1CV)3@z(",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09456c",
+            "6816a3c7e14f767c9c09456d"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09456f",
+        "nombre": "Monique Singh",
+        "email": "robert18@example.org",
+        "contrasena": "#dF2EssGa3",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094572",
+            "6816a3c7e14f767c9c094573",
+            "6816a3c7e14f767c9c094570"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094575",
+        "nombre": "Jason Hayes",
+        "email": "brownnichole@example.com",
+        "contrasena": "&NePMuo@4c",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094578",
+        "nombre": "Paul Roberts",
+        "email": "sandersdouglas@example.com",
+        "contrasena": "%q59AQiE$H",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094579"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09457e",
+        "nombre": "Peter Nicholson",
+        "email": "robertgraham@example.org",
+        "contrasena": ")HOuCJ@9V2",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094581",
+        "nombre": "Kelly Edwards",
+        "email": "allenandrew@example.org",
+        "contrasena": "@#(4tOZrv#",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094585",
+            "6816a3c7e14f767c9c094583",
+            "6816a3c7e14f767c9c094582",
+            "6816a3c7e14f767c9c094584",
+            "6816a3c7e14f767c9c094586"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094588",
+        "nombre": "Miss Faith Fletcher MD",
+        "email": "mcdanielchristina@example.org",
+        "contrasena": "2w9A%#OWV_",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094589"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09458b",
+        "nombre": "April Bradley",
+        "email": "njones@example.com",
+        "contrasena": "!NiK_Gwsi3",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094590"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094592",
+        "nombre": "Austin Allen",
+        "email": "ronald66@example.com",
+        "contrasena": ")H4F@Wpsr5",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094597",
+            "6816a3c7e14f767c9c094596",
+            "6816a3c7e14f767c9c094595",
+            "6816a3c7e14f767c9c094594",
+            "6816a3c7e14f767c9c094593"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094599",
+        "nombre": "Lisa Guzman",
+        "email": "laurendixon@example.net",
+        "contrasena": "SC2SXpiTX)",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09459f",
+        "nombre": "Veronica Vincent",
+        "email": "rrubio@example.com",
+        "contrasena": "su8pWYEe1+",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945a2",
+        "nombre": "Bailey Mills",
+        "email": "daniel95@example.com",
+        "contrasena": "(9Xi+54C&4",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0945a3"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945a5",
+        "nombre": "Mark Carter",
+        "email": "amy06@example.org",
+        "contrasena": "%xHiwy9x+0",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0945a8"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945ab",
+        "nombre": "Matthew Ryan",
+        "email": "wadevanessa@example.org",
+        "contrasena": "(03CZ*_ui8",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0945ad",
+            "6816a3c7e14f767c9c0945ac"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945af",
+        "nombre": "Angela Diaz",
+        "email": "hwatkins@example.org",
+        "contrasena": "_cOGZHlx28",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0945b2",
+            "6816a3c7e14f767c9c0945b1",
+            "6816a3c7e14f767c9c0945b0"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945b4",
+        "nombre": "Thomas Romero",
+        "email": "keith36@example.org",
+        "contrasena": "!_DMltxIV1",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0945b5"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945bb",
+        "nombre": "Lisa Anderson",
+        "email": "georgerobert@example.net",
+        "contrasena": ")kA3JxS1(o",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945bf",
+        "nombre": "Rodney Wilson",
+        "email": "dolson@example.org",
+        "contrasena": "*4aM!FyfX+",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0945c0",
+            "6816a3c7e14f767c9c0945c1"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945c4",
+        "nombre": "Phillip Taylor",
+        "email": "kevinphillips@example.com",
+        "contrasena": "#1PCBqN&F$",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0945c7"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945c9",
+        "nombre": "Mr. William Garza",
+        "email": "michael07@example.net",
+        "contrasena": "B3gMqaXv^R",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945cc",
+        "nombre": "Tonya Juarez",
+        "email": "johnsonmadison@example.org",
+        "contrasena": "WJz(6Urvn^",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0945cd",
+            "6816a3c7e14f767c9c0945cf",
+            "6816a3c7e14f767c9c0945ce"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945d1",
+        "nombre": "Valerie Harris",
+        "email": "wellstracy@example.com",
+        "contrasena": "y)4QOol4&1",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945d6",
+        "nombre": "Leah Huynh",
+        "email": "kim24@example.net",
+        "contrasena": "Fyr6GFXt+)",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0945d8",
+            "6816a3c7e14f767c9c0945da"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945dc",
+        "nombre": "Michael Mckenzie",
+        "email": "sheila73@example.org",
+        "contrasena": ")Ds_J0eo09",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945df",
+        "nombre": "Edward Howe",
+        "email": "ydavis@example.com",
+        "contrasena": "(dSQy%CpD2",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945e2",
+        "nombre": "Elizabeth Schneider",
+        "email": "katelynbarajas@example.org",
+        "contrasena": "%C30PLmdoC",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0945e3"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945e5",
+        "nombre": "Michelle Lynch",
+        "email": "joneskendra@example.net",
+        "contrasena": "W^g487Cnq)",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0945e7",
+            "6816a3c7e14f767c9c0945e6"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945e9",
+        "nombre": "Edward Ellis",
+        "email": "brendanelson@example.org",
+        "contrasena": "^b9UZfqTK%",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945ef",
+        "nombre": "Crystal Lewis",
+        "email": "levineanthony@example.com",
+        "contrasena": "D@5vF7PdS#",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0945f0"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945f3",
+        "nombre": "Andrea Hobbs",
+        "email": "teresacollins@example.net",
+        "contrasena": "h4U!5OupmI",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0945f6",
+            "6816a3c7e14f767c9c0945f4",
+            "6816a3c7e14f767c9c0945f7",
+            "6816a3c7e14f767c9c0945f5"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0945fa",
+        "nombre": "Chelsea Hughes",
+        "email": "tapiabrian@example.com",
+        "contrasena": "W_a6Ggj^Kn",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0945fd",
+            "6816a3c7e14f767c9c0945fb",
+            "6816a3c7e14f767c9c0945fc",
+            "6816a3c7e14f767c9c0945fe",
+            "6816a3c7e14f767c9c0945ff"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094601",
+        "nombre": "Pamela Riggs",
+        "email": "sharon38@example.org",
+        "contrasena": "&3INunZu2s",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094602",
+            "6816a3c7e14f767c9c094604"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094606",
+        "nombre": "Benjamin Pena",
+        "email": "kimberly79@example.net",
+        "contrasena": "%pPYE^tj49",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09460a",
+            "6816a3c7e14f767c9c094607",
+            "6816a3c7e14f767c9c094608"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09460c",
+        "nombre": "Kathryn Lewis MD",
+        "email": "keithedwards@example.com",
+        "contrasena": "Sc(0LQZbg#",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09460e"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094611",
+        "nombre": "Jason Nelson",
+        "email": "sally48@example.com",
+        "contrasena": "t)M6xPuNe@",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094612",
+            "6816a3c7e14f767c9c094613"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094615",
+        "nombre": "Daniel Mullins",
+        "email": "brandygardner@example.org",
+        "contrasena": "plyJ6VcH1@",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094619",
+            "6816a3c7e14f767c9c094617"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09461b",
+        "nombre": "Mr. Jesse Castillo",
+        "email": "walkercameron@example.net",
+        "contrasena": ")00+dF)sm0",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094620",
+            "6816a3c7e14f767c9c09461d",
+            "6816a3c7e14f767c9c09461e",
+            "6816a3c7e14f767c9c09461f",
+            "6816a3c7e14f767c9c09461c"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094622",
+        "nombre": "Karen Pierce",
+        "email": "frederickrodriguez@example.net",
+        "contrasena": "V$1IXm!u1@",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094623"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094629",
+        "nombre": "Brittany Jones",
+        "email": "hoganjocelyn@example.net",
+        "contrasena": ")9xUm8A_*x",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09462b",
+            "6816a3c7e14f767c9c09462c",
+            "6816a3c7e14f767c9c09462d"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09462f",
+        "nombre": "April Moran",
+        "email": "clayheather@example.org",
+        "contrasena": "6AQ*iObg$2",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094630",
+            "6816a3c7e14f767c9c094631",
+            "6816a3c7e14f767c9c094632"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094634",
+        "nombre": "Elizabeth Smith",
+        "email": "ocurry@example.com",
+        "contrasena": "rYs7FFb()3",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094635",
+            "6816a3c7e14f767c9c094637",
+            "6816a3c7e14f767c9c094638"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09463a",
+        "nombre": "Brandon Charles",
+        "email": "carneydavid@example.org",
+        "contrasena": ")Un%9YdI&g",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094641",
+        "nombre": "Ryan Hill",
+        "email": "escott@example.com",
+        "contrasena": "_OHFSd^*6u",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094643"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094645",
+        "nombre": "Richard Benson",
+        "email": "aaron40@example.net",
+        "contrasena": ")4d^ORlgCm",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094646"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09464a",
+        "nombre": "Leslie Ray",
+        "email": "charleswalter@example.org",
+        "contrasena": "Z(rc(wKx52",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09464e",
+        "nombre": "Matthew Rios",
+        "email": "coltonjohnson@example.net",
+        "contrasena": "0$Oa5PwTkW",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09464f"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094651",
+        "nombre": "Erin Hoover",
+        "email": "manuel49@example.com",
+        "contrasena": "Ua$1PXbKsH",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094654",
+        "nombre": "Andrea Pennington",
+        "email": "wwilson@example.com",
+        "contrasena": "g+5SQXFzA*",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094657"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09465b",
+        "nombre": "Kendra Hickman",
+        "email": "jonessamantha@example.com",
+        "contrasena": "Gj)vu1+p#7",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09465c",
+            "6816a3c7e14f767c9c09465e"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094661",
+        "nombre": "Jennifer Chapman",
+        "email": "davissteven@example.net",
+        "contrasena": ")Y#ASnvv3g",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094663"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094667",
+        "nombre": "Elizabeth Salinas",
+        "email": "sandra73@example.com",
+        "contrasena": "#+%4Isu6VW",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09466a",
+        "nombre": "Eugene Campbell",
+        "email": "michelleramirez@example.net",
+        "contrasena": "(%bMX_tM(1",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09466d",
+        "nombre": "Ryan Garrett",
+        "email": "lmitchell@example.org",
+        "contrasena": "g!5Hp_YTKc",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09466f",
+            "6816a3c7e14f767c9c09466e"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094674",
+        "nombre": "Ryan Jackson",
+        "email": "matthewarnold@example.org",
+        "contrasena": "*OM_59IivC",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094677",
+        "nombre": "Jennifer Bryant",
+        "email": "charlesbradley@example.org",
+        "contrasena": "#sXDKz1pQ6",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094678",
+            "6816a3c7e14f767c9c09467b",
+            "6816a3c7e14f767c9c09467c",
+            "6816a3c7e14f767c9c09467a"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09467e",
+        "nombre": "Frank Glass",
+        "email": "jasonolson@example.com",
+        "contrasena": "%5IBynhKPR",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094680"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094682",
+        "nombre": "James Davis",
+        "email": "jortiz@example.net",
+        "contrasena": "uW_IiPbh_7",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094683"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094686",
+        "nombre": "Reginald Thompson",
+        "email": "tgonzalez@example.org",
+        "contrasena": "!l2VwqQ1w+",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094689",
+        "nombre": "Brian Sherman",
+        "email": "jbyrd@example.net",
+        "contrasena": "_&xS9upIO8",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09468c",
+            "6816a3c7e14f767c9c09468e",
+            "6816a3c7e14f767c9c09468a",
+            "6816a3c7e14f767c9c09468d"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094690",
+        "nombre": "Jennifer Martinez",
+        "email": "alyssablack@example.org",
+        "contrasena": "Pjo8PbmW$7",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094692"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094695",
+        "nombre": "Steven Brown",
+        "email": "christensennicole@example.com",
+        "contrasena": "_)87OI4nSY",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094699",
+            "6816a3c7e14f767c9c094696",
+            "6816a3c7e14f767c9c09469a",
+            "6816a3c7e14f767c9c094697",
+            "6816a3c7e14f767c9c094698"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09469c",
+        "nombre": "Kelly Petty",
+        "email": "chansen@example.com",
+        "contrasena": "$k2oMTXxO)",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09469f",
+            "6816a3c7e14f767c9c09469e",
+            "6816a3c7e14f767c9c0946a0"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946a3",
+        "nombre": "Lydia Christensen",
+        "email": "danielskathleen@example.com",
+        "contrasena": "^v7K&+yxSp",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946a7",
+        "nombre": "Jay Ward",
+        "email": "wsmith@example.net",
+        "contrasena": "oo2Y4CYd%)",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0946a8"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946ab",
+        "nombre": "Timothy Dodson",
+        "email": "nicholas14@example.org",
+        "contrasena": "8N4NaCFa!X",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0946ad",
+            "6816a3c7e14f767c9c0946ac"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946af",
+        "nombre": "Sara Wells",
+        "email": "twhite@example.org",
+        "contrasena": "mmpR1+YaP#",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0946b0"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946b3",
+        "nombre": "Taylor Little",
+        "email": "erodriguez@example.net",
+        "contrasena": "RL3Qyh*&H*",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0946b7",
+            "6816a3c7e14f767c9c0946b6",
+            "6816a3c7e14f767c9c0946b5",
+            "6816a3c7e14f767c9c0946b4"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946b9",
+        "nombre": "Derek Ryan",
+        "email": "john26@example.com",
+        "contrasena": "@8w3MC(t&s",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0946ba"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946bc",
+        "nombre": "Rebecca Perez",
+        "email": "ccollins@example.com",
+        "contrasena": "^27Y1!pwLh",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946bf",
+        "nombre": "Mary Houston",
+        "email": "ocarter@example.net",
+        "contrasena": "wg_zJ1Gj(2",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946c6",
+        "nombre": "Kaitlin Young",
+        "email": "pamelaharrison@example.org",
+        "contrasena": "08882Fc5!e",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0946c8",
+            "6816a3c7e14f767c9c0946ca"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946cd",
+        "nombre": "Francis Patterson",
+        "email": "flemingjared@example.org",
+        "contrasena": "(G6CFhYiJV",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0946cf"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946d2",
+        "nombre": "Kyle Hill",
+        "email": "cory31@example.com",
+        "contrasena": "tSZG5zikC+",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946d5",
+        "nombre": "Darren Moore",
+        "email": "laura52@example.net",
+        "contrasena": "%0d7A&VsXm",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946d9",
+        "nombre": "Maria Clayton",
+        "email": "gabrielle27@example.com",
+        "contrasena": "(34Mo^Yd4e",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0946db",
+            "6816a3c7e14f767c9c0946da"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946dd",
+        "nombre": "Denise Downs",
+        "email": "davidmiller@example.net",
+        "contrasena": "@&roYH8qo8",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946e1",
+        "nombre": "Jason Perez",
+        "email": "isaachill@example.com",
+        "contrasena": "Vo(RvPX$&3",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0946e5",
+            "6816a3c7e14f767c9c0946e4"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946e7",
+        "nombre": "Julie Pena",
+        "email": "emurphy@example.net",
+        "contrasena": "l!s4OOU2Um",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946ea",
+        "nombre": "Katherine Everett",
+        "email": "molly13@example.org",
+        "contrasena": "q8rLuFsw^A",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946ee",
+        "nombre": "Samantha Harris",
+        "email": "brandon19@example.com",
+        "contrasena": "C21gyQsz#m",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946f2",
+        "nombre": "David Green",
+        "email": "parkerchristopher@example.org",
+        "contrasena": "(W6@+XCfz$",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946f5",
+        "nombre": "Lisa Matthews",
+        "email": "gryan@example.org",
+        "contrasena": "w6zy8VoLU^",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0946f7",
+            "6816a3c7e14f767c9c0946f6",
+            "6816a3c7e14f767c9c0946f8"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946fa",
+        "nombre": "Elizabeth Blanchard",
+        "email": "mzavala@example.net",
+        "contrasena": "d4hVk&xp)s",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0946fe",
+        "nombre": "Bobby Dominguez",
+        "email": "ydurham@example.net",
+        "contrasena": "%A3Fsf^N4K",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094703",
+        "nombre": "Matthew Jacobson",
+        "email": "danielflynn@example.org",
+        "contrasena": "HI93!prG__",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094706",
+        "nombre": "April Adkins",
+        "email": "peterskenneth@example.net",
+        "contrasena": "*2K7NMBo9D",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09470c",
+        "nombre": "Lisa Lewis",
+        "email": "valenzuelasamuel@example.com",
+        "contrasena": "^38)PFSs#q",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09470d"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094711",
+        "nombre": "Elizabeth Ross",
+        "email": "fpeterson@example.net",
+        "contrasena": "J1+G4GmnaI",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094715",
+            "6816a3c7e14f767c9c094713",
+            "6816a3c7e14f767c9c094714"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094717",
+        "nombre": "Pam Roy",
+        "email": "jasmine43@example.org",
+        "contrasena": "#JYSdYJcX7",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09471c",
+        "nombre": "David Mcdonald",
+        "email": "andrew85@example.net",
+        "contrasena": "%1FSN6psw4",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094722",
+        "nombre": "Kelly Lam",
+        "email": "glennshields@example.net",
+        "contrasena": "7h97AVwhp+",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094723"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094725",
+        "nombre": "Christopher May",
+        "email": "krista73@example.org",
+        "contrasena": "6UoRz4jg&_",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094729",
+            "6816a3c7e14f767c9c094726",
+            "6816a3c7e14f767c9c094728",
+            "6816a3c7e14f767c9c09472a"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09472c",
+        "nombre": "Peter Washington",
+        "email": "rodneyrussell@example.com",
+        "contrasena": "x(4yMNuM@1",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09472f",
+            "6816a3c7e14f767c9c09472d"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094732",
+        "nombre": "Austin Frazier",
+        "email": "williamsimpson@example.org",
+        "contrasena": "rWS)OeOL!0",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094733"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094735",
+        "nombre": "Amy Lee",
+        "email": "david73@example.com",
+        "contrasena": "*qd*Q79v$9",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094738",
+            "6816a3c7e14f767c9c094737"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09473b",
+        "nombre": "Courtney Rhodes",
+        "email": "andersonjeffrey@example.net",
+        "contrasena": "Y+D&DfX!_7",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09473d"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094740",
+        "nombre": "Lawrence Phillips",
+        "email": "jfarmer@example.net",
+        "contrasena": "399Ap#e6N#",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094743",
+            "6816a3c7e14f767c9c094744",
+            "6816a3c7e14f767c9c094742",
+            "6816a3c7e14f767c9c094741"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094746",
+        "nombre": "Christina Cisneros",
+        "email": "dowens@example.net",
+        "contrasena": "*1$n7Zog&l",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094749"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09474d",
+        "nombre": "Ryan Olson",
+        "email": "johnnyroman@example.org",
+        "contrasena": "&fVzz2o94K",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094750"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094754",
+        "nombre": "Johnathan Smith",
+        "email": "charles49@example.net",
+        "contrasena": "9dQn3WRw_W",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094757",
+        "nombre": "Jennifer Robinson",
+        "email": "christinajensen@example.org",
+        "contrasena": "#zJ&QPWk4V",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094758"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09475a",
+        "nombre": "Nancy Vang",
+        "email": "romerotara@example.org",
+        "contrasena": "dx8Hh&J5N_",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09475d"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094760",
+        "nombre": "Nancy Frazier",
+        "email": "atkinsonedward@example.net",
+        "contrasena": "*Z@I6BSqi7",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094763",
+            "6816a3c7e14f767c9c094761",
+            "6816a3c7e14f767c9c094762",
+            "6816a3c7e14f767c9c094765",
+            "6816a3c7e14f767c9c094764"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094767",
+        "nombre": "Autumn Johnson",
+        "email": "fbarrera@example.com",
+        "contrasena": "mgbB3!Hve)",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09476b",
+            "6816a3c7e14f767c9c09476a",
+            "6816a3c7e14f767c9c094769",
+            "6816a3c7e14f767c9c094768"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09476e",
+        "nombre": "Terri Reeves",
+        "email": "ericponce@example.org",
+        "contrasena": "4D6Dgmi3_%",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09476f",
+            "6816a3c7e14f767c9c094771"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094773",
+        "nombre": "Xavier Marsh",
+        "email": "renee77@example.org",
+        "contrasena": "_2QUY48Rdf",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094775"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094779",
+        "nombre": "Daniel Tucker",
+        "email": "josephjohnson@example.com",
+        "contrasena": "N&@b06tb$T",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09477c",
+            "6816a3c7e14f767c9c09477b"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09477e",
+        "nombre": "Kelly Mckinney",
+        "email": "pamela60@example.org",
+        "contrasena": "!m5%$IudmO",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094780"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094782",
+        "nombre": "Anthony Duncan",
+        "email": "dwilson@example.com",
+        "contrasena": "D)9hBpm4Ub",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094784"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094788",
+        "nombre": "Matthew Giles",
+        "email": "arthurcampos@example.net",
+        "contrasena": "(nA6OpelB3",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09478c"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09478e",
+        "nombre": "Randall Gomez",
+        "email": "jonesdanielle@example.net",
+        "contrasena": "JqNrlu%D&3",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09478f",
+            "6816a3c7e14f767c9c094791"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094794",
+        "nombre": "Rodney Valencia",
+        "email": "jeffrey03@example.com",
+        "contrasena": "!5ZA#Es3Y%",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094798",
+        "nombre": "Keith Brown",
+        "email": "donald30@example.org",
+        "contrasena": "(2Dq3!Fl(b",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09479b",
+            "6816a3c7e14f767c9c09479c"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09479f",
+        "nombre": "Miranda Morales",
+        "email": "gordontimothy@example.org",
+        "contrasena": "n%A1YgVh)e",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0947a1"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947a6",
+        "nombre": "Darlene Phelps",
+        "email": "wwhite@example.org",
+        "contrasena": "#L9VR8_jt6",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0947a8"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947aa",
+        "nombre": "Tina Arnold",
+        "email": "caldwellkeith@example.org",
+        "contrasena": "OE8x53TyN)",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0947ae"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947b0",
+        "nombre": "George Davis",
+        "email": "regina80@example.org",
+        "contrasena": "oc5MM7u4)m",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0947b4",
+            "6816a3c7e14f767c9c0947b1",
+            "6816a3c7e14f767c9c0947b5",
+            "6816a3c7e14f767c9c0947b3"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947b7",
+        "nombre": "Patricia Preston",
+        "email": "andrewsthomas@example.com",
+        "contrasena": "8+*dN#%p+K",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0947b8"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947ba",
+        "nombre": "Katherine Williams",
+        "email": "brios@example.org",
+        "contrasena": "2!FLeDEr*g",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0947bd"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947c0",
+        "nombre": "Craig Wilson",
+        "email": "johnsonvincent@example.com",
+        "contrasena": "Q#zKv1Wbj*",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0947c1"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947c3",
+        "nombre": "Patrick Sosa",
+        "email": "zvillegas@example.com",
+        "contrasena": "(_+F8XkC#_",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0947c6",
+            "6816a3c7e14f767c9c0947c5",
+            "6816a3c7e14f767c9c0947c7"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947ca",
+        "nombre": "Jeffrey Vazquez",
+        "email": "owenjohn@example.org",
+        "contrasena": "iMaI0Gjq_O",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0947cb",
+            "6816a3c7e14f767c9c0947cc",
+            "6816a3c7e14f767c9c0947cd"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947d0",
+        "nombre": "Stephen Bond",
+        "email": "heatherpadilla@example.com",
+        "contrasena": "f^n3TFqHJk",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0947d1",
+            "6816a3c7e14f767c9c0947d2"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947d5",
+        "nombre": "Jessica Weber",
+        "email": "gomezmegan@example.net",
+        "contrasena": "E0Fdt_Ln##",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947d8",
+        "nombre": "Jessica Burch",
+        "email": "oparker@example.net",
+        "contrasena": "@vq1BSd5^*",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947dd",
+        "nombre": "Jenna Gallegos",
+        "email": "randolphbriana@example.com",
+        "contrasena": "4uU8q(m)_z",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947e0",
+        "nombre": "Phyllis Nelson",
+        "email": "matthew37@example.org",
+        "contrasena": "^1Q%I8ge7(",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0947e3",
+            "6816a3c7e14f767c9c0947e5",
+            "6816a3c7e14f767c9c0947e2",
+            "6816a3c7e14f767c9c0947e4",
+            "6816a3c7e14f767c9c0947e1"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947e7",
+        "nombre": "Philip Watts",
+        "email": "heatherstephens@example.com",
+        "contrasena": "!veEp64c)9",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0947eb",
+            "6816a3c7e14f767c9c0947e9",
+            "6816a3c7e14f767c9c0947ea",
+            "6816a3c7e14f767c9c0947e8"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947ed",
+        "nombre": "Matthew Maxwell",
+        "email": "michaelweber@example.net",
+        "contrasena": "#(4X!5hZTn",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0947ef",
+            "6816a3c7e14f767c9c0947ee"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947f1",
+        "nombre": "Danielle Reed",
+        "email": "anna52@example.com",
+        "contrasena": "_0)JUM7i&5",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0947f2"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947f7",
+        "nombre": "Edwin Weaver",
+        "email": "martinjake@example.com",
+        "contrasena": "9wDSIvFm)b",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0947f9",
+            "6816a3c7e14f767c9c0947fa",
+            "6816a3c7e14f767c9c0947fc",
+            "6816a3c7e14f767c9c0947fb",
+            "6816a3c7e14f767c9c0947f8"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0947fe",
+        "nombre": "John Hart",
+        "email": "apowell@example.com",
+        "contrasena": "!6S^PBhZ^R",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094800",
+            "6816a3c7e14f767c9c0947ff",
+            "6816a3c7e14f767c9c094801",
+            "6816a3c7e14f767c9c094803",
+            "6816a3c7e14f767c9c094802"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094805",
+        "nombre": "Emily Bradley",
+        "email": "owalters@example.org",
+        "contrasena": "*h8jIdqu*5",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094808",
+            "6816a3c7e14f767c9c094807",
+            "6816a3c7e14f767c9c094806",
+            "6816a3c7e14f767c9c094809"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09480b",
+        "nombre": "Gary Harris",
+        "email": "robertflores@example.org",
+        "contrasena": ")rqNXH0t1X",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09480f",
+            "6816a3c7e14f767c9c09480c"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094812",
+        "nombre": "Erin Moore",
+        "email": "edwardsalexander@example.com",
+        "contrasena": "&5P!(nas(P",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094813",
+            "6816a3c7e14f767c9c094816",
+            "6816a3c7e14f767c9c094815",
+            "6816a3c7e14f767c9c094814"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094818",
+        "nombre": "Christopher Myers",
+        "email": "rodneysmith@example.com",
+        "contrasena": "GUjf)UuK%3",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09481c",
+            "6816a3c7e14f767c9c09481a"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09481e",
+        "nombre": "Kathleen Owens",
+        "email": "whitneygarcia@example.net",
+        "contrasena": "yF0ZZ5ut)4",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094825",
+        "nombre": "Nathan Moore",
+        "email": "stephentaylor@example.com",
+        "contrasena": "Mn8Xmpth2@",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094826",
+            "6816a3c7e14f767c9c094827",
+            "6816a3c7e14f767c9c094828",
+            "6816a3c7e14f767c9c094829"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09482b",
+        "nombre": "Nathan Leon",
+        "email": "dale41@example.org",
+        "contrasena": "T3Xwop^++l",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09482c",
+            "6816a3c7e14f767c9c09482d"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09482f",
+        "nombre": "Ashley Stone",
+        "email": "cmiller@example.org",
+        "contrasena": "#lVCRxo4V8",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094830",
+            "6816a3c7e14f767c9c094832",
+            "6816a3c7e14f767c9c094833",
+            "6816a3c7e14f767c9c094831"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094835",
+        "nombre": "Roberta Griffin",
+        "email": "elawrence@example.org",
+        "contrasena": "mF!04ImW&O",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094836",
+            "6816a3c7e14f767c9c094837"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09483b",
+        "nombre": "Gina Smith",
+        "email": "hwilliams@example.net",
+        "contrasena": "*pFoeCZq20",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09483c",
+            "6816a3c7e14f767c9c09483e",
+            "6816a3c7e14f767c9c09483d"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094840",
+        "nombre": "Cassandra Lane",
+        "email": "huntkylie@example.net",
+        "contrasena": "2*2L_pZJbL",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094844",
+            "6816a3c7e14f767c9c094843",
+            "6816a3c7e14f767c9c094841",
+            "6816a3c7e14f767c9c094842"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094846",
+        "nombre": "Joyce Chambers",
+        "email": "gregory53@example.net",
+        "contrasena": "g%7nbUj4Lb",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09484a",
+        "nombre": "Heather Armstrong",
+        "email": "georgeramirez@example.net",
+        "contrasena": "@6LkEeaopw",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09484d"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09484f",
+        "nombre": "Leah Harris",
+        "email": "ericramirez@example.org",
+        "contrasena": "j!9HmAKu%a",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094854",
+            "6816a3c7e14f767c9c094853",
+            "6816a3c7e14f767c9c094850"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094856",
+        "nombre": "Tracy King",
+        "email": "mstein@example.net",
+        "contrasena": "((IBDev^*5",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09485b",
+        "nombre": "Terry Lyons",
+        "email": "gordonkari@example.org",
+        "contrasena": "bN3miQRu!N",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09485d"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094860",
+        "nombre": "Jennifer Shelton",
+        "email": "gregorychambers@example.org",
+        "contrasena": "$r0vKNfg)@",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094864",
+        "nombre": "Patrick Pierce",
+        "email": "vclark@example.com",
+        "contrasena": "7(BaDW^c+n",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094868",
+        "nombre": "Sara Tucker",
+        "email": "jwyatt@example.net",
+        "contrasena": "*Jhc0Oz$s)",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09486d",
+        "nombre": "Amanda Chapman",
+        "email": "elizabethshaffer@example.net",
+        "contrasena": "t0ZwwGIs%b",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094871"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094874",
+        "nombre": "Lori Snyder",
+        "email": "matthewriley@example.com",
+        "contrasena": "*rRTiyhx(6",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094876",
+            "6816a3c7e14f767c9c094878"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09487a",
+        "nombre": "Susan Villegas",
+        "email": "shannonking@example.net",
+        "contrasena": "Rer)5Bnqjv",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09487b",
+            "6816a3c7e14f767c9c09487c"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09487e",
+        "nombre": "Katherine Davidson",
+        "email": "ksantiago@example.net",
+        "contrasena": "+VpBD9Gop@",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094883",
+        "nombre": "Justin Davidson",
+        "email": "martinerica@example.org",
+        "contrasena": "453&RpKg(W",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094884"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094886",
+        "nombre": "Kelly Frazier",
+        "email": "brownheather@example.org",
+        "contrasena": "tqOJY2QtL_",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094889",
+        "nombre": "Lori Foster",
+        "email": "andrea46@example.net",
+        "contrasena": "*05K^GdTa$",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09488e",
+        "nombre": "Randy Morris",
+        "email": "cgraham@example.com",
+        "contrasena": "Ot+7RWxVr$",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094892",
+        "nombre": "Timothy Hunt",
+        "email": "bradleygentry@example.org",
+        "contrasena": "rmZoAml#^2",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094893"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094899",
+        "nombre": "Donald Bartlett",
+        "email": "mannjoseph@example.com",
+        "contrasena": "zQs&+6EiA^",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09489a",
+            "6816a3c7e14f767c9c09489b"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09489d",
+        "nombre": "Luke Brown",
+        "email": "amykoch@example.org",
+        "contrasena": "#c46^Qll^f",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948a2",
+        "nombre": "Brandi Key",
+        "email": "richardaustin@example.org",
+        "contrasena": "L8HlTSNa_5",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948a5",
+        "nombre": "Joseph Rivera",
+        "email": "fmiranda@example.com",
+        "contrasena": "hFP5zJlF8(",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0948a7",
+            "6816a3c7e14f767c9c0948a6"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948ac",
+        "nombre": "Sarah Brown",
+        "email": "nancysellers@example.com",
+        "contrasena": "$oJDaNh9+0",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948b0",
+        "nombre": "Amanda Green",
+        "email": "bradleyrowe@example.net",
+        "contrasena": "SH8EqlKs#3",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948b7",
+        "nombre": "Anthony Ramirez",
+        "email": "cestes@example.net",
+        "contrasena": "+Yj)HfBn%7",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0948b8",
+            "6816a3c7e14f767c9c0948b9"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948be",
+        "nombre": "Teresa Williams",
+        "email": "nbauer@example.org",
+        "contrasena": "58(W23XsgR",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0948bf",
+            "6816a3c7e14f767c9c0948c0",
+            "6816a3c7e14f767c9c0948c1"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948c3",
+        "nombre": "Jenny Haas",
+        "email": "dustin59@example.com",
+        "contrasena": "u8QrF(rV!g",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0948c6",
+            "6816a3c7e14f767c9c0948c5",
+            "6816a3c7e14f767c9c0948c8"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948ca",
+        "nombre": "Steven Lewis",
+        "email": "elliscameron@example.net",
+        "contrasena": "fMzK*vKs$3",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948cd",
+        "nombre": "Anna Collins",
+        "email": "amy96@example.org",
+        "contrasena": "(osBw$_g!6",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948d4",
+        "nombre": "Brianna Smith",
+        "email": "sean12@example.com",
+        "contrasena": "*4CaCEbh2h",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0948d6",
+            "6816a3c7e14f767c9c0948d5"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948d8",
+        "nombre": "Laura Kent",
+        "email": "sierrazimmerman@example.org",
+        "contrasena": ")%4V&i7H9W",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948df",
+        "nombre": "Kelli Wiggins",
+        "email": "james82@example.org",
+        "contrasena": "I#+5WzYUB*",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0948e2",
+            "6816a3c7e14f767c9c0948e1",
+            "6816a3c7e14f767c9c0948e4"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948e6",
+        "nombre": "Antonio Wilson",
+        "email": "jessethomas@example.com",
+        "contrasena": "+adTo%B+^6",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0948e7"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948ea",
+        "nombre": "Maria Robinson",
+        "email": "vbates@example.org",
+        "contrasena": "6A6ZP(lFX&",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0948ec",
+            "6816a3c7e14f767c9c0948ef",
+            "6816a3c7e14f767c9c0948ee"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948f1",
+        "nombre": "Misty Lucas",
+        "email": "mariafox@example.com",
+        "contrasena": "6*Zn4!Kq^3",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0948f5",
+            "6816a3c7e14f767c9c0948f2",
+            "6816a3c7e14f767c9c0948f3",
+            "6816a3c7e14f767c9c0948f6"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948f8",
+        "nombre": "Kathryn Hayes",
+        "email": "esmith@example.com",
+        "contrasena": "_61czHPpsQ",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948fb",
+        "nombre": "Richard Long",
+        "email": "ashley97@example.net",
+        "contrasena": "zIfYm_XP#5",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0948ff",
+        "nombre": "Christopher Taylor",
+        "email": "robertoconnell@example.net",
+        "contrasena": "*0MofC0_z1",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094904",
+        "nombre": "Michael Parker",
+        "email": "william14@example.com",
+        "contrasena": "Ot%7OF)Uo)",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094905",
+            "6816a3c7e14f767c9c094906"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094908",
+        "nombre": "Jason Carter",
+        "email": "karen46@example.net",
+        "contrasena": "+^INXd(x+9",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09490b",
+        "nombre": "Charles Perez",
+        "email": "wali@example.org",
+        "contrasena": "W8We#Rjr^$",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09490c"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094910",
+        "nombre": "Wesley Harper",
+        "email": "williamscynthia@example.com",
+        "contrasena": "xy2%$!Fsw$",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094911"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094914",
+        "nombre": "David Maldonado",
+        "email": "butlerkatie@example.org",
+        "contrasena": "6uZNNFpO&8",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094917",
+        "nombre": "Melissa Grant",
+        "email": "beckerjennifer@example.net",
+        "contrasena": "oY5!LEbtG&",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094919",
+            "6816a3c7e14f767c9c09491b",
+            "6816a3c7e14f767c9c09491c",
+            "6816a3c7e14f767c9c094918",
+            "6816a3c7e14f767c9c09491a"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09491e",
+        "nombre": "Devin Robinson",
+        "email": "douglaslinda@example.net",
+        "contrasena": "+KitPxQ8E1",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094921"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094924",
+        "nombre": "Adam Acevedo",
+        "email": "derricksmith@example.net",
+        "contrasena": "h7W9FZsl!S",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094925",
+            "6816a3c7e14f767c9c094927"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094929",
+        "nombre": "Tanner Atkins",
+        "email": "davisbenjamin@example.org",
+        "contrasena": "PBa)HvY4&4",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09492e",
+            "6816a3c7e14f767c9c09492d",
+            "6816a3c7e14f767c9c09492a"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094930",
+        "nombre": "Angela Ellis",
+        "email": "alexander17@example.org",
+        "contrasena": "I6Q%+Brx)m",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094933",
+            "6816a3c7e14f767c9c094932"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094935",
+        "nombre": "Lisa Washington",
+        "email": "vturner@example.net",
+        "contrasena": "7+z8&9ZgrL",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094938",
+            "6816a3c7e14f767c9c094936",
+            "6816a3c7e14f767c9c094937"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09493a",
+        "nombre": "Emily Wood",
+        "email": "fbennett@example.com",
+        "contrasena": "QJ0VT5z^f^",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09493d"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09493f",
+        "nombre": "Tony Brown",
+        "email": "hbecker@example.com",
+        "contrasena": ")zbJk7OcC5",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094941",
+            "6816a3c7e14f767c9c094943",
+            "6816a3c7e14f767c9c094942"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094945",
+        "nombre": "Bridget Gates",
+        "email": "robertsdawn@example.com",
+        "contrasena": "8B6Ftxdv!)",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094948"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09494a",
+        "nombre": "Jennifer Anderson",
+        "email": "sanchezvictoria@example.net",
+        "contrasena": "!9aTjrj%V2",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09494c",
+            "6816a3c7e14f767c9c09494b"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09494f",
+        "nombre": "Amy Miller",
+        "email": "ncoffey@example.com",
+        "contrasena": "%HJG32lsU7",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094952",
+        "nombre": "Michael Simmons",
+        "email": "psmith@example.net",
+        "contrasena": "%5^gSO_wkx",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094953"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094956",
+        "nombre": "Lauren Bird",
+        "email": "martinangelica@example.com",
+        "contrasena": "J@o0LsKUt+",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094959",
+        "nombre": "Patricia Wagner",
+        "email": "jorge91@example.com",
+        "contrasena": "(6QbDq^o(3",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09495b",
+            "6816a3c7e14f767c9c09495a"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09495d",
+        "nombre": "Patricia Mcdonald",
+        "email": "matthew56@example.org",
+        "contrasena": "+^0J3tng$0",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09495e",
+            "6816a3c7e14f767c9c09495f"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094962",
+        "nombre": "Jessica Blankenship",
+        "email": "ofields@example.org",
+        "contrasena": "b1YSdPPv)L",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094963",
+            "6816a3c7e14f767c9c094964",
+            "6816a3c7e14f767c9c094966",
+            "6816a3c7e14f767c9c094965"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094968",
+        "nombre": "Linda Medina",
+        "email": "christopher08@example.org",
+        "contrasena": "^%0Gu2JfgJ",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09496b",
+        "nombre": "Lauren Williams",
+        "email": "gainessarah@example.org",
+        "contrasena": "IBJ(7cClKY",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09496d",
+            "6816a3c7e14f767c9c09496c"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09496f",
+        "nombre": "Jacob Valenzuela MD",
+        "email": "evanstamara@example.net",
+        "contrasena": "L8GMSJ%I#e",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094970"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094972",
+        "nombre": "Michael Mckenzie",
+        "email": "ycoleman@example.net",
+        "contrasena": "3D6r1r1ak_",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094976",
+            "6816a3c7e14f767c9c094975",
+            "6816a3c7e14f767c9c094974"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094978",
+        "nombre": "Mitchell Holt",
+        "email": "jennifer61@example.net",
+        "contrasena": "+*0Rw*Lomr",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09497b",
+            "6816a3c7e14f767c9c09497a",
+            "6816a3c7e14f767c9c094979"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09497f",
+        "nombre": "Jennifer Clements",
+        "email": "ecraig@example.net",
+        "contrasena": "N)i4LmGzOq",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094983",
+            "6816a3c7e14f767c9c094980",
+            "6816a3c7e14f767c9c094982",
+            "6816a3c7e14f767c9c094981"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094985",
+        "nombre": "William Alvarado",
+        "email": "erin66@example.org",
+        "contrasena": "(6L0RRNfyM",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094986"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094988",
+        "nombre": "Michael Young",
+        "email": "manningteresa@example.org",
+        "contrasena": "i3UttjBg#B",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c09498b",
+            "6816a3c7e14f767c9c094989",
+            "6816a3c7e14f767c9c09498c"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09498e",
+        "nombre": "Roy Wilson",
+        "email": "blake60@example.org",
+        "contrasena": "+W@6LFuc!q",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094991",
+        "nombre": "Lawrence Avery",
+        "email": "fduncan@example.com",
+        "contrasena": "Vw@p2VQf)b",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094995"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094997",
+        "nombre": "Jessica Fletcher DVM",
+        "email": "rgonzales@example.org",
+        "contrasena": "Idc6CRyy)@",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094999"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09499c",
+        "nombre": "Justin Chen",
+        "email": "karen88@example.net",
+        "contrasena": "jf$7NJAnL%",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949a0",
+            "6816a3c7e14f767c9c0949a1"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949a3",
+        "nombre": "Linda Thomas",
+        "email": "emily35@example.net",
+        "contrasena": "Xe6u3HxQ#2",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949a4"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949a6",
+        "nombre": "Jessica Sullivan",
+        "email": "bhill@example.com",
+        "contrasena": "(c)i6TPQY!",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949a9",
+        "nombre": "Karen Vance",
+        "email": "joseph24@example.org",
+        "contrasena": "@K7!TGw0D9",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949aa"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949ad",
+        "nombre": "Priscilla Brown",
+        "email": "carol96@example.com",
+        "contrasena": "+Z@4NTl6&v",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949ae"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949b0",
+        "nombre": "Gina Patel",
+        "email": "matthew75@example.org",
+        "contrasena": "0P38TvnqZ)",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949b2"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949b4",
+        "nombre": "Jessica Smith",
+        "email": "heidi24@example.com",
+        "contrasena": "L&27iQmHY_",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949b7",
+            "6816a3c7e14f767c9c0949b5",
+            "6816a3c7e14f767c9c0949b6"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949ba",
+        "nombre": "Jeffery Bell",
+        "email": "fostermary@example.com",
+        "contrasena": "#^9TroJx@j",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949bb"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949bd",
+        "nombre": "Steven Davis",
+        "email": "upalmer@example.org",
+        "contrasena": "WQ40$EUzj)",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949bf",
+            "6816a3c7e14f767c9c0949be",
+            "6816a3c7e14f767c9c0949c0"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949c2",
+        "nombre": "Kristi Rhodes",
+        "email": "brian71@example.net",
+        "contrasena": "sSD2Lej((&",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949c4",
+            "6816a3c7e14f767c9c0949c5",
+            "6816a3c7e14f767c9c0949c7",
+            "6816a3c7e14f767c9c0949c3",
+            "6816a3c7e14f767c9c0949c6"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949c9",
+        "nombre": "Megan Bullock",
+        "email": "connor24@example.com",
+        "contrasena": "EN2U7VfrE_",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949cc",
+            "6816a3c7e14f767c9c0949ca"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949ce",
+        "nombre": "Paul Dominguez",
+        "email": "ochoamark@example.org",
+        "contrasena": "v#sf9BqqBv",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949d0",
+            "6816a3c7e14f767c9c0949cf"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949d4",
+        "nombre": "Kristen Walker",
+        "email": "gjohnson@example.org",
+        "contrasena": "O!q39Ejoeh",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949d9",
+            "6816a3c7e14f767c9c0949d7",
+            "6816a3c7e14f767c9c0949d6"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949db",
+        "nombre": "Shelly Pearson",
+        "email": "suzanne21@example.net",
+        "contrasena": "_h0O_$gR0a",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949dc",
+            "6816a3c7e14f767c9c0949dd"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949e0",
+        "nombre": "Curtis Mitchell",
+        "email": "harrisjohn@example.org",
+        "contrasena": "yp9jSg30A&",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949e2",
+            "6816a3c7e14f767c9c0949e1"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949e4",
+        "nombre": "Christopher Johnson",
+        "email": "dyork@example.com",
+        "contrasena": "!0IBx^skY6",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949e6",
+            "6816a3c7e14f767c9c0949e7"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949ea",
+        "nombre": "Nancy Walter",
+        "email": "laura89@example.com",
+        "contrasena": "(dC)oXrn!9",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949ed",
+            "6816a3c7e14f767c9c0949ec",
+            "6816a3c7e14f767c9c0949eb",
+            "6816a3c7e14f767c9c0949ee"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949f0",
+        "nombre": "Tammy Koch",
+        "email": "dhuynh@example.org",
+        "contrasena": "9&7gCaw7%P",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949f2",
+            "6816a3c7e14f767c9c0949f1"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949f4",
+        "nombre": "Alexandra Simpson",
+        "email": "xmcdonald@example.com",
+        "contrasena": "@%_1LJBmOJ",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949f7",
+            "6816a3c7e14f767c9c0949f6"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949fb",
+        "nombre": "Amber Salazar",
+        "email": "kenneth81@example.com",
+        "contrasena": "!vGY@F*d+7",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c0949fc"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c0949ff",
+        "nombre": "Erin Pierce DVM",
+        "email": "bwade@example.com",
+        "contrasena": "773#ZNnu_9",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a01",
+            "6816a3c7e14f767c9c094a00",
+            "6816a3c7e14f767c9c094a02"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a04",
+        "nombre": "Thomas Mccoy",
+        "email": "lisa06@example.org",
+        "contrasena": "$mOBfEOZH1",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a07",
+        "nombre": "Travis Montgomery",
+        "email": "ericksontimothy@example.org",
+        "contrasena": "7*aDMnHw(u",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a0c",
+        "nombre": "Kimberly Perry",
+        "email": "marksbrooke@example.com",
+        "contrasena": "F3L5iWDj)w",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a0e",
+            "6816a3c7e14f767c9c094a0d",
+            "6816a3c7e14f767c9c094a0f"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a11",
+        "nombre": "Edward Morgan",
+        "email": "michael24@example.org",
+        "contrasena": "_myFjaMp6Q",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a16",
+        "nombre": "Susan Butler",
+        "email": "veronica92@example.net",
+        "contrasena": "@2JLHTHdbl",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a18",
+            "6816a3c7e14f767c9c094a19",
+            "6816a3c7e14f767c9c094a17"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a1d",
+        "nombre": "James Gamble",
+        "email": "tiffanymorris@example.net",
+        "contrasena": "@^Tk9Of@_Z",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a21",
+            "6816a3c7e14f767c9c094a20",
+            "6816a3c7e14f767c9c094a1f"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a23",
+        "nombre": "Chelsey Welch",
+        "email": "pachecojeanette@example.org",
+        "contrasena": "oCh7RusZY@",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a2a",
+        "nombre": "Annette Good",
+        "email": "langamanda@example.com",
+        "contrasena": ")qy4Ao@Nti",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a2b",
+            "6816a3c7e14f767c9c094a2d",
+            "6816a3c7e14f767c9c094a2c"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a2f",
+        "nombre": "Paul King",
+        "email": "davidsonchristy@example.net",
+        "contrasena": "&FfVHxBmM6",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a34",
+        "nombre": "Stacey Higgins",
+        "email": "qmitchell@example.com",
+        "contrasena": "*0hFj)QM(i",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a36"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a38",
+        "nombre": "Laura Thomas",
+        "email": "michellehenderson@example.com",
+        "contrasena": "nZr_^8@mt*",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a39",
+            "6816a3c7e14f767c9c094a3b",
+            "6816a3c7e14f767c9c094a3a",
+            "6816a3c7e14f767c9c094a3c"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a3e",
+        "nombre": "Brian Stokes",
+        "email": "caseyandrea@example.com",
+        "contrasena": "(^m7#R#wW(",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a41"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a44",
+        "nombre": "William Thompson",
+        "email": "donaldmorgan@example.net",
+        "contrasena": "jz(cCm+q)6",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a47",
+            "6816a3c7e14f767c9c094a45",
+            "6816a3c7e14f767c9c094a46"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a49",
+        "nombre": "Daniel Martinez",
+        "email": "arnoldandrew@example.net",
+        "contrasena": "$5O#3JGdPJ",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a4d",
+        "nombre": "Jonathan Lin",
+        "email": "sanchezevan@example.org",
+        "contrasena": ")mO7fODyR!",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a53",
+        "nombre": "Kevin Williams",
+        "email": "michael85@example.org",
+        "contrasena": "Gc09SGcrK(",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a56"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a59",
+        "nombre": "Michael Rodriguez",
+        "email": "theodoreconway@example.org",
+        "contrasena": "yH+8xA5u(c",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a5b",
+            "6816a3c7e14f767c9c094a5a"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a5d",
+        "nombre": "Amanda Kerr",
+        "email": "jason10@example.com",
+        "contrasena": "*RT6%plO!7",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a5e"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a61",
+        "nombre": "Mary Flores",
+        "email": "anthonyoconnell@example.org",
+        "contrasena": "@3vSUOFvh^",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a62",
+            "6816a3c7e14f767c9c094a64"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a66",
+        "nombre": "Julia Todd",
+        "email": "erussell@example.net",
+        "contrasena": "(z$ZxR0w79",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a6a",
+            "6816a3c7e14f767c9c094a67"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a6c",
+        "nombre": "Michael Orr",
+        "email": "lori66@example.net",
+        "contrasena": "*+9Z(PtD$8",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a72",
+        "nombre": "Jackie Davis",
+        "email": "jessica72@example.com",
+        "contrasena": "4cGY!$1p_g",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a75",
+        "nombre": "Lance Collier",
+        "email": "jconway@example.com",
+        "contrasena": "IP1HqUUf%$",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a76",
+            "6816a3c7e14f767c9c094a77"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a79",
+        "nombre": "Colin Williams",
+        "email": "paul56@example.org",
+        "contrasena": "%v6JyO8Mur",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a80",
+        "nombre": "Kevin King",
+        "email": "tylerhamilton@example.net",
+        "contrasena": "Jw8Gvkwg+C",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a81",
+            "6816a3c7e14f767c9c094a82"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a85",
+        "nombre": "Christopher Ward",
+        "email": "greengeorge@example.org",
+        "contrasena": "K+0oTYzoe9",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a88",
+        "nombre": "Jordan Walsh",
+        "email": "jennifer92@example.net",
+        "contrasena": "#99_0iExvB",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a8b",
+        "nombre": "Kristen Johnson",
+        "email": "delacruzjames@example.org",
+        "contrasena": "3+BbllEE)@",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a8c"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a8e",
+        "nombre": "Adrienne Brown",
+        "email": "maryjordan@example.com",
+        "contrasena": "CY^5dUpz#l",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a90",
+            "6816a3c7e14f767c9c094a8f"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a93",
+        "nombre": "Erica Miller",
+        "email": "ijones@example.net",
+        "contrasena": "4Z%1Okbb#h",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a99",
+        "nombre": "Kristen Vargas",
+        "email": "laurasmith@example.net",
+        "contrasena": "l!$c6UkpWb",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094a9d",
+        "nombre": "Veronica Hernandez",
+        "email": "williamgonzalez@example.com",
+        "contrasena": "ZFiSpeQa!6",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094a9e"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094aa0",
+        "nombre": "Steven Martin",
+        "email": "bevans@example.net",
+        "contrasena": ")oCwQQrvE1",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094aa3",
+        "nombre": "Thomas Allen",
+        "email": "enolan@example.net",
+        "contrasena": "BXfE6PCo$0",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094aa4"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094aa6",
+        "nombre": "Jessica Flynn",
+        "email": "rwong@example.org",
+        "contrasena": "%DXz&Slh61",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094aaa"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094aad",
+        "nombre": "Brittany Davis DVM",
+        "email": "gfox@example.com",
+        "contrasena": "WxU2vSIc(6",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094ab1",
+            "6816a3c7e14f767c9c094aaf"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ab3",
+        "nombre": "Luke Sheppard",
+        "email": "larsenwesley@example.net",
+        "contrasena": "2^#9bXa^A+",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094aba",
+        "nombre": "Garrett Gonzalez",
+        "email": "gmay@example.org",
+        "contrasena": "^V30gkRtLn",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094abe",
+            "6816a3c7e14f767c9c094abd",
+            "6816a3c7e14f767c9c094abc",
+            "6816a3c7e14f767c9c094abb"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ac0",
+        "nombre": "Kevin Graves",
+        "email": "douglasjack@example.org",
+        "contrasena": "TpF*(1Gj*7",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094ac1",
+            "6816a3c7e14f767c9c094ac2"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ac4",
+        "nombre": "Kristen Harris",
+        "email": "john58@example.com",
+        "contrasena": "#b93cSk0wd",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094ac9"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094acb",
+        "nombre": "James Patel",
+        "email": "chooper@example.com",
+        "contrasena": "_%H8FcwsGL",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ace",
+        "nombre": "Jessica Adams",
+        "email": "sullivanmichael@example.net",
+        "contrasena": "s(t8^8XdU+",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094acf"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ad2",
+        "nombre": "Ashley Clark",
+        "email": "jacob13@example.net",
+        "contrasena": ")y2ZdEgk#w",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094ad5",
+            "6816a3c7e14f767c9c094ad4",
+            "6816a3c7e14f767c9c094ad3"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ad7",
+        "nombre": "Jeffrey Haynes",
+        "email": "michaelli@example.net",
+        "contrasena": "dMTk9Xse*g",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094ad8"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ada",
+        "nombre": "Kristina Rogers",
+        "email": "matthewflores@example.com",
+        "contrasena": "5PfG5kBH_J",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094adc",
+            "6816a3c7e14f767c9c094ade"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ae0",
+        "nombre": "Erica Moore",
+        "email": "williamsangelica@example.net",
+        "contrasena": "$c(PTR_m)7",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ae3",
+        "nombre": "Amanda Potter",
+        "email": "robert39@example.net",
+        "contrasena": "k3U81y8%_*",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094ae5",
+            "6816a3c7e14f767c9c094ae4",
+            "6816a3c7e14f767c9c094ae6"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ae8",
+        "nombre": "Mary Wilson",
+        "email": "kelly28@example.net",
+        "contrasena": "qb3UKqe4^p",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094aea",
+            "6816a3c7e14f767c9c094aeb"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094aee",
+        "nombre": "Kayla Wiggins",
+        "email": "annawilliams@example.net",
+        "contrasena": "&At6NVNbA+",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094af5",
+        "nombre": "Brooke Ochoa",
+        "email": "woodmichael@example.net",
+        "contrasena": "_9xhad@e!R",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094af8",
+        "nombre": "Elizabeth Yang",
+        "email": "laurieberry@example.net",
+        "contrasena": "32LatBqI#o",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094af9"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094afb",
+        "nombre": "Ryan Osborn",
+        "email": "brittany79@example.net",
+        "contrasena": "j3Z5Yo(h+X",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094afc"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094aff",
+        "nombre": "Brian Wade",
+        "email": "wmartinez@example.com",
+        "contrasena": "q4A^5IwSTc",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b04",
+        "nombre": "Noah Stout",
+        "email": "howardjack@example.org",
+        "contrasena": "qEU0Pjp^^&",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b06"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b0a",
+        "nombre": "Crystal Smith",
+        "email": "kmartin@example.com",
+        "contrasena": "D_q31vLn%*",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b0c"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b0e",
+        "nombre": "Rebecca Vance",
+        "email": "timothy98@example.org",
+        "contrasena": "%8XvZ_qAyA",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b0f",
+            "6816a3c7e14f767c9c094b10"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b12",
+        "nombre": "Sandra Mitchell",
+        "email": "cookdana@example.net",
+        "contrasena": "Kf26V7Ac!)",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b13"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b15",
+        "nombre": "Craig Coffey",
+        "email": "amandaparker@example.net",
+        "contrasena": ")bDH9g!Ma3",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b18",
+        "nombre": "Michael Archer",
+        "email": "denisesmith@example.net",
+        "contrasena": "$87nJBfHIv",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b19"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b1b",
+        "nombre": "John Mcbride",
+        "email": "meyermanuel@example.org",
+        "contrasena": "&C0)WhTno4",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b1e",
+        "nombre": "Mrs. Toni Lewis",
+        "email": "gonzalezdavid@example.com",
+        "contrasena": "x2Q(oG)h(#",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b22",
+        "nombre": "Stephen Nash",
+        "email": "ehanna@example.com",
+        "contrasena": ")8Kj@qz%43",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b23"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b25",
+        "nombre": "Laura Jones",
+        "email": "cassandrabrown@example.com",
+        "contrasena": "2DiWJBMc$2",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b26"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b29",
+        "nombre": "Anthony Brown",
+        "email": "robertsonbailey@example.org",
+        "contrasena": "bF58tbJs*v",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b2a",
+            "6816a3c7e14f767c9c094b2b",
+            "6816a3c7e14f767c9c094b2e",
+            "6816a3c7e14f767c9c094b2c"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b30",
+        "nombre": "Maurice Richardson",
+        "email": "saralarson@example.org",
+        "contrasena": "x27bWmEi+f",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b31",
+            "6816a3c7e14f767c9c094b32"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b35",
+        "nombre": "Victoria Pineda",
+        "email": "robertmcgrath@example.com",
+        "contrasena": "xtVXu5Hj%4",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b38"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b3b",
+        "nombre": "Joseph Moses",
+        "email": "sheila13@example.com",
+        "contrasena": "#eXSQ4Azt^",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b3d",
+            "6816a3c7e14f767c9c094b3c"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b3f",
+        "nombre": "Brian Olson",
+        "email": "johnliu@example.net",
+        "contrasena": "a_Ej_#9c%6",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b42",
+            "6816a3c7e14f767c9c094b43",
+            "6816a3c7e14f767c9c094b41"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b45",
+        "nombre": "Katrina Porter",
+        "email": "robertsonmaurice@example.net",
+        "contrasena": "s2Gtlx29#6",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b48",
+        "nombre": "Mr. Jesse Davis",
+        "email": "amber54@example.com",
+        "contrasena": "*OeH1iUv1D",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b4f",
+        "nombre": "Monique White",
+        "email": "snowvalerie@example.com",
+        "contrasena": "Z^2Uy(q4nn",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b52",
+            "6816a3c7e14f767c9c094b51",
+            "6816a3c7e14f767c9c094b53",
+            "6816a3c7e14f767c9c094b50"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b55",
+        "nombre": "Eric Leonard",
+        "email": "qjones@example.org",
+        "contrasena": "MS(9LYhWZ@",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b56"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b5a",
+        "nombre": "John Haynes",
+        "email": "steven81@example.com",
+        "contrasena": "h*59Nd(m97",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b5f",
+        "nombre": "Anthony Solis",
+        "email": "tonyajohnson@example.net",
+        "contrasena": "mD7$N0%b_&",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b62",
+            "6816a3c7e14f767c9c094b61"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b64",
+        "nombre": "William Moore",
+        "email": "connie59@example.org",
+        "contrasena": "y72Vy*aA(V",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b66",
+            "6816a3c7e14f767c9c094b68"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b6a",
+        "nombre": "Eric Burton",
+        "email": "imyers@example.net",
+        "contrasena": "+w2KxXvi3p",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b6d",
+        "nombre": "Kelly Mcguire",
+        "email": "rhondamartinez@example.org",
+        "contrasena": "fse4Ev2+E+",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b71",
+        "nombre": "Amanda Coffey",
+        "email": "sarahgarcia@example.net",
+        "contrasena": "bGIJjR&F_9",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b74",
+        "nombre": "Wesley Stafford",
+        "email": "kristen51@example.org",
+        "contrasena": "&+J(rQcaL6",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b76",
+            "6816a3c7e14f767c9c094b78"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b7b",
+        "nombre": "Dylan Richardson",
+        "email": "loganwhite@example.org",
+        "contrasena": "+QweBIp8S6",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b7e",
+        "nombre": "Isaiah Howell",
+        "email": "greendebbie@example.com",
+        "contrasena": "*#Q!13Ft6w",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b81",
+        "nombre": "Julie Walker",
+        "email": "michaelgraham@example.net",
+        "contrasena": "sf7Tu%zc%B",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b84",
+        "nombre": "Mary Clark",
+        "email": "kelli36@example.net",
+        "contrasena": "1SFAfA(g$j",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b86",
+            "6816a3c7e14f767c9c094b85"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b89",
+        "nombre": "Cheyenne Gomez",
+        "email": "ashlee80@example.org",
+        "contrasena": "$2UVlA8c^y",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b8b",
+            "6816a3c7e14f767c9c094b8a"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b8d",
+        "nombre": "Teresa Wells",
+        "email": "patricia53@example.org",
+        "contrasena": "#Ul5*PwZ&v",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b94",
+        "nombre": "Jessica Jimenez",
+        "email": "vhudson@example.org",
+        "contrasena": "@*1tRWEtr)",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b99",
+            "6816a3c7e14f767c9c094b96",
+            "6816a3c7e14f767c9c094b98",
+            "6816a3c7e14f767c9c094b97",
+            "6816a3c7e14f767c9c094b95"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094b9b",
+        "nombre": "Pamela Moreno",
+        "email": "morgan94@example.com",
+        "contrasena": "#2sWafBK5&",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094b9d",
+            "6816a3c7e14f767c9c094ba0",
+            "6816a3c7e14f767c9c094b9c"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ba2",
+        "nombre": "Randy Blake",
+        "email": "erivera@example.org",
+        "contrasena": "&x#H7OMlm(",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094ba3",
+            "6816a3c7e14f767c9c094ba4"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ba7",
+        "nombre": "Dr. Jillian Tapia",
+        "email": "reidabigail@example.net",
+        "contrasena": "x3)xjOOf*3",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094ba9"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094bad",
+        "nombre": "Alexander Manning",
+        "email": "gcastillo@example.com",
+        "contrasena": "JD68Q^xP^+",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094bae",
+            "6816a3c7e14f767c9c094baf",
+            "6816a3c7e14f767c9c094bb0",
+            "6816a3c7e14f767c9c094bb1"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094bb3",
+        "nombre": "Sara Hill",
+        "email": "fordkathryn@example.org",
+        "contrasena": "I!aY7Xt1Wt",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094bb7",
+        "nombre": "Brian Armstrong",
+        "email": "katherinebright@example.net",
+        "contrasena": "%%m0QVZf)V",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094bbc",
+        "nombre": "Diana Hicks",
+        "email": "kimberlywhite@example.org",
+        "contrasena": "Xj3WdbMr(f",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094bbd",
+            "6816a3c7e14f767c9c094bbe"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094bc0",
+        "nombre": "Paula Diaz",
+        "email": "stewartjames@example.com",
+        "contrasena": "SU3@Rvte_r",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094bc3",
+        "nombre": "Erica Curtis",
+        "email": "codydunn@example.com",
+        "contrasena": "T2K7iWdZ$X",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094bc4"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094bc7",
+        "nombre": "Albert Craig",
+        "email": "ryansimmons@example.net",
+        "contrasena": "G^y0iLjnS*",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094bcd",
+        "nombre": "Terri Walton",
+        "email": "aarmstrong@example.org",
+        "contrasena": "Y2Bv$y4V%V",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094bd0",
+        "nombre": "Michael Jimenez",
+        "email": "jdean@example.org",
+        "contrasena": "YX+$5W4v!0",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094bd4",
+            "6816a3c7e14f767c9c094bd3"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094bd6",
+        "nombre": "Dylan Miller",
+        "email": "hayley46@example.net",
+        "contrasena": "*f^fFFn$!6",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094bd7"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094bdb",
+        "nombre": "Mary Rivera",
+        "email": "john82@example.com",
+        "contrasena": "*2TeRmtVl3",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094bde",
+        "nombre": "Adam Collins",
+        "email": "bauerchris@example.com",
+        "contrasena": "%m3#4BZcK@",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094be2"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094be5",
+        "nombre": "George Castillo",
+        "email": "rtownsend@example.net",
+        "contrasena": "%%84Stf0mN",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094be8",
+            "6816a3c7e14f767c9c094be7",
+            "6816a3c7e14f767c9c094be6"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094bea",
+        "nombre": "Sarah Blanchard",
+        "email": "alexis02@example.org",
+        "contrasena": "s^(4CfAwm4",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094beb"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094bed",
+        "nombre": "James Mendoza",
+        "email": "kyle77@example.com",
+        "contrasena": "6!0fG$zR%X",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094bef",
+            "6816a3c7e14f767c9c094bf0"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094bf4",
+        "nombre": "Matthew Wheeler",
+        "email": "farleycory@example.net",
+        "contrasena": "j3T@Njld#E",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094bf5",
+            "6816a3c7e14f767c9c094bf9",
+            "6816a3c7e14f767c9c094bf8"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094bfb",
+        "nombre": "Duane Moran",
+        "email": "vbaker@example.com",
+        "contrasena": "a8+0C^tw(1",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094bfc"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c01",
+        "nombre": "Robert Ross",
+        "email": "joshua48@example.com",
+        "contrasena": "icExQofO#3",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c03",
+            "6816a3c7e14f767c9c094c04"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c07",
+        "nombre": "Amy Moore",
+        "email": "cnelson@example.net",
+        "contrasena": "Yq4uPXrL(6",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c09",
+            "6816a3c7e14f767c9c094c08"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c0e",
+        "nombre": "Terri Garza",
+        "email": "howelljared@example.com",
+        "contrasena": "h_neR0QvlK",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c0f"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c11",
+        "nombre": "Jill Spencer",
+        "email": "kellydakota@example.net",
+        "contrasena": "9_#%9Ad1L4",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c18",
+        "nombre": "Catherine Wheeler",
+        "email": "harold61@example.org",
+        "contrasena": "oF9&DrX7g%",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c1b",
+        "nombre": "Alicia Madden",
+        "email": "john16@example.com",
+        "contrasena": "$bAY1JFQZ#",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c1f",
+        "nombre": "Richard Harris",
+        "email": "kristen18@example.com",
+        "contrasena": "(9QCsf_P)C",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c20"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c22",
+        "nombre": "Craig Davis",
+        "email": "nicholasjohnson@example.org",
+        "contrasena": "2jd4$NnUO)",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c24",
+            "6816a3c7e14f767c9c094c25"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c27",
+        "nombre": "Scott Jones",
+        "email": "jhowell@example.com",
+        "contrasena": "&P$4SvGAGv",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c28"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c2a",
+        "nombre": "Dylan Peterson",
+        "email": "lopezsharon@example.org",
+        "contrasena": "j2TLKIr1!^",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c2f",
+            "6816a3c7e14f767c9c094c2c",
+            "6816a3c7e14f767c9c094c2b",
+            "6816a3c7e14f767c9c094c2d"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c31",
+        "nombre": "Samantha Rodriguez",
+        "email": "samanthapayne@example.net",
+        "contrasena": "1^3Q_ZHt@7",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c34",
+            "6816a3c7e14f767c9c094c32"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c37",
+        "nombre": "Christina Kane",
+        "email": "wpeterson@example.com",
+        "contrasena": "y!E^1VqXUf",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c39",
+            "6816a3c7e14f767c9c094c3b",
+            "6816a3c7e14f767c9c094c3a",
+            "6816a3c7e14f767c9c094c38"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c3d",
+        "nombre": "James Walker",
+        "email": "kbenjamin@example.com",
+        "contrasena": "!hsUbJno7C",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c3e"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c40",
+        "nombre": "Lori Kennedy",
+        "email": "egarrison@example.net",
+        "contrasena": "^q0kG7CfU2",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c43",
+        "nombre": "Gary Kramer DDS",
+        "email": "walter09@example.org",
+        "contrasena": "B@8Bcvun^z",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c46",
+        "nombre": "Henry Hudson",
+        "email": "nortonjulie@example.com",
+        "contrasena": "3v1v29BZr!",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c4a",
+            "6816a3c7e14f767c9c094c48"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c4c",
+        "nombre": "Kathleen Johnson",
+        "email": "rodneyholmes@example.org",
+        "contrasena": "&3E$DSVqBv",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c4d"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c4f",
+        "nombre": "Jessica Barton",
+        "email": "brandon63@example.org",
+        "contrasena": "gi#9Z8wJjt",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c54",
+        "nombre": "Lauren Pena",
+        "email": "qwilliams@example.org",
+        "contrasena": "vUhr71zeE#",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c5b",
+        "nombre": "Dave Clarke",
+        "email": "hbeck@example.org",
+        "contrasena": "Jbb8bKq)1#",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c60",
+        "nombre": "James Shaw",
+        "email": "qmiller@example.org",
+        "contrasena": "M&dX_w7j2N",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c62",
+            "6816a3c7e14f767c9c094c61"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c64",
+        "nombre": "Eileen Carter",
+        "email": "justinroberts@example.com",
+        "contrasena": "vkf$2cEjHC",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c65",
+            "6816a3c7e14f767c9c094c66",
+            "6816a3c7e14f767c9c094c67"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c69",
+        "nombre": "Jessica Hall",
+        "email": "juarezmiguel@example.com",
+        "contrasena": "FU^5S3n8!f",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c70",
+        "nombre": "Andrew Camacho",
+        "email": "freilly@example.org",
+        "contrasena": "R_3S!Yoy(4",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c74"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c77",
+        "nombre": "Elizabeth Li",
+        "email": "sheila21@example.org",
+        "contrasena": "+2X9Ixn$NY",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c7e",
+        "nombre": "Matthew Martin",
+        "email": "qsutton@example.com",
+        "contrasena": "TBgDrtMj&8",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c7f"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c82",
+        "nombre": "Larry Marshall",
+        "email": "edward14@example.org",
+        "contrasena": "jIFnO1Es&0",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c83"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c87",
+        "nombre": "Mikayla Mills",
+        "email": "emily78@example.com",
+        "contrasena": "%S!4Gku84g",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c8a"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c8c",
+        "nombre": "Diane Adams DDS",
+        "email": "mwood@example.org",
+        "contrasena": "fCPjiWgo&9",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c8d",
+            "6816a3c7e14f767c9c094c8e"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c90",
+        "nombre": "Jenna Beasley",
+        "email": "ochoaangelica@example.com",
+        "contrasena": "^_84Kypmfu",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c91"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c93",
+        "nombre": "Lauren Peterson",
+        "email": "bnelson@example.net",
+        "contrasena": "u0tIXYgn)C",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c94"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c97",
+        "nombre": "Joseph Nelson",
+        "email": "smithmelinda@example.org",
+        "contrasena": "d8qOg0gw(W",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c98",
+            "6816a3c7e14f767c9c094c9b",
+            "6816a3c7e14f767c9c094c9a"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094c9d",
+        "nombre": "Deanna Richardson",
+        "email": "taylor25@example.org",
+        "contrasena": "(7&3VrR0UE",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094c9f",
+            "6816a3c7e14f767c9c094ca0",
+            "6816a3c7e14f767c9c094ca2",
+            "6816a3c7e14f767c9c094ca1",
+            "6816a3c7e14f767c9c094c9e"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ca4",
+        "nombre": "Jack Jones",
+        "email": "wattsdavid@example.org",
+        "contrasena": "XafLSA%s$9",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094ca6",
+            "6816a3c7e14f767c9c094ca5"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ca8",
+        "nombre": "Ryan Evans",
+        "email": "jill52@example.com",
+        "contrasena": "zRqARxuz^3",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094ca9",
+            "6816a3c7e14f767c9c094cab"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094cad",
+        "nombre": "Jackie Lynn",
+        "email": "hmurphy@example.com",
+        "contrasena": "Fmr8^FWff&",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094caf",
+            "6816a3c7e14f767c9c094cae"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094cb1",
+        "nombre": "Courtney Decker",
+        "email": "dhoover@example.com",
+        "contrasena": "!&43PHb3sc",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094cb2"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094cb4",
+        "nombre": "Richard Blake",
+        "email": "christineramirez@example.com",
+        "contrasena": "&wfO1Yle$6",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094cb6",
+            "6816a3c7e14f767c9c094cb7"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094cba",
+        "nombre": "Claudia Lopez",
+        "email": "bryanshea@example.org",
+        "contrasena": "#60T_fw9FG",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094cbf",
+            "6816a3c7e14f767c9c094cbb"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094cc1",
+        "nombre": "Sara Bryan",
+        "email": "alexisfrank@example.com",
+        "contrasena": "W&L0Xv3AqB",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094cc6",
+        "nombre": "Kristen Gilmore",
+        "email": "josephsanchez@example.org",
+        "contrasena": "0E)v1Ny268",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ccd",
+        "nombre": "James Brown",
+        "email": "robert21@example.org",
+        "contrasena": "0SNOO1Opo)",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094cd4",
+        "nombre": "Patrick Lambert",
+        "email": "robert38@example.net",
+        "contrasena": "h*Z4Xat#eL",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094cd5"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094cd8",
+        "nombre": "Dr. Dawn Martinez",
+        "email": "smithjacqueline@example.com",
+        "contrasena": "&Ti3VINqCi",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094cda",
+            "6816a3c7e14f767c9c094cdb",
+            "6816a3c7e14f767c9c094cd9"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094cde",
+        "nombre": "Luke Bradford",
+        "email": "omoody@example.net",
+        "contrasena": "SrGJF6Js_#",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094cdf",
+            "6816a3c7e14f767c9c094ce1",
+            "6816a3c7e14f767c9c094ce0"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ce3",
+        "nombre": "Kimberly Sanders",
+        "email": "ewaters@example.org",
+        "contrasena": "r+j0toTeyQ",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094ce4"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094ce6",
+        "nombre": "James Orr",
+        "email": "lloydsherry@example.net",
+        "contrasena": "l2RVy7MT&N",
+        "historialPedidos": [],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094cea",
+        "nombre": "Nicholas Lawson",
+        "email": "zedwards@example.net",
+        "contrasena": "v5MaCVvX_8",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094cef",
+        "nombre": "Daniel Jones",
+        "email": "allennunez@example.com",
+        "contrasena": "&6F9KtCymP",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094cf0",
+            "6816a3c7e14f767c9c094cf1",
+            "6816a3c7e14f767c9c094cf2",
+            "6816a3c7e14f767c9c094cf3"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094cf5",
+        "nombre": "Nicole Galloway",
+        "email": "williamabbott@example.net",
+        "contrasena": "#03m&9Ai0T",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094cf8",
+        "nombre": "Kevin Wheeler",
+        "email": "christopherbishop@example.org",
+        "contrasena": "Hsar7OfgM%",
+        "historialPedidos": [],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094cfb",
+        "nombre": "Michael Wiley",
+        "email": "philliplevine@example.com",
+        "contrasena": "uN2+T6u*R%",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094cfc"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094cff",
+        "nombre": "Samuel Gallagher",
+        "email": "elizabethenglish@example.net",
+        "contrasena": "!5WVMw@MBy",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094d01",
+            "6816a3c7e14f767c9c094d03",
+            "6816a3c7e14f767c9c094d02",
+            "6816a3c7e14f767c9c094d00"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094d05",
+        "nombre": "Nancy Smith",
+        "email": "nharrison@example.net",
+        "contrasena": "N9BkBRgd#R",
+        "historialPedidos": [],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094d0c",
+        "nombre": "Daniel Dillon",
+        "email": "terryallison@example.com",
+        "contrasena": "x6WUcAt0+o",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094d0d"
+        ],
+        "tipoCuenta": "cliente"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094d11",
+        "nombre": "Christina Edwards",
+        "email": "jordan29@example.net",
+        "contrasena": "*6PrVFKv1w",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094d13",
+            "6816a3c7e14f767c9c094d12",
+            "6816a3c7e14f767c9c094d16",
+            "6816a3c7e14f767c9c094d15"
+        ],
+        "tipoCuenta": "consultor"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094d18",
+        "nombre": "Stacey Jennings",
+        "email": "jennifer06@example.org",
+        "contrasena": "MD6%Vx*h@u",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094d1c",
+            "6816a3c7e14f767c9c094d1b",
+            "6816a3c7e14f767c9c094d1a",
+            "6816a3c7e14f767c9c094d19"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094d1e",
+        "nombre": "Emily Hernandez",
+        "email": "justin31@example.com",
+        "contrasena": "+_3LpJU(%X",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094d1f"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094d22",
+        "nombre": "Amy Evans",
+        "email": "kellyjill@example.org",
+        "contrasena": "$rhLj0C17E",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094d26",
+            "6816a3c7e14f767c9c094d24",
+            "6816a3c7e14f767c9c094d23"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094d28",
+        "nombre": "Ana Velez",
+        "email": "ambershaw@example.net",
+        "contrasena": "6AJR4yqy@y",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094d2c",
+            "6816a3c7e14f767c9c094d2d",
+            "6816a3c7e14f767c9c094d29",
+            "6816a3c7e14f767c9c094d2b",
+            "6816a3c7e14f767c9c094d2a"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094d2f",
+        "nombre": "Karen Morris",
+        "email": "wuchase@example.org",
+        "contrasena": "%fdOa5Zb0L",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094d31",
+            "6816a3c7e14f767c9c094d30",
+            "6816a3c7e14f767c9c094d34",
+            "6816a3c7e14f767c9c094d33",
+            "6816a3c7e14f767c9c094d32"
+        ],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094d36",
+        "nombre": "Ronald Howard DDS",
+        "email": "aliceramirez@example.org",
+        "contrasena": "#KlWxRyfP1",
+        "historialPedidos": [
+            "6816a3c7e14f767c9c094d38",
+            "6816a3c7e14f767c9c094d37"
+        ],
+        "tipoCuenta": "administrador"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094d3a",
+        "nombre": "Matthew Stone",
+        "email": "dianamccoy@example.com",
+        "contrasena": "iMW!sn*!_3",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094d3e",
+        "nombre": "Elizabeth Barry",
+        "email": "sharonmarquez@example.net",
+        "contrasena": ")VUTGyLwq9",
+        "historialPedidos": [],
+        "tipoCuenta": "mesero"
+    }
+]

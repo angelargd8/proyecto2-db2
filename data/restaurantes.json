@@ -1,0 +1,242 @@
+[
+    {
+        "_id": "6816a3c7e14f767c9c094371",
+        "sucursal": "Blackwell-Henry",
+        "numeroMesas": 9,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "-55.534416",
+                "21.1514895"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094372",
+        "sucursal": "Moore, Brown and Nguyen",
+        "numeroMesas": 18,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "-29.219009",
+                "-30.1974005"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094373",
+        "sucursal": "Oconnell, Pham and Baker",
+        "numeroMesas": 14,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "-140.900155",
+                "-41.3763125"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094374",
+        "sucursal": "Jones LLC",
+        "numeroMesas": 14,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "134.626050",
+                "78.5719015"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094375",
+        "sucursal": "King Ltd",
+        "numeroMesas": 3,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "64.488428",
+                "80.8789145"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094376",
+        "sucursal": "Brown-Carter",
+        "numeroMesas": 4,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "33.957229",
+                "-6.043538"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094377",
+        "sucursal": "Phillips LLC",
+        "numeroMesas": 19,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "93.011891",
+                "37.013438"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094378",
+        "sucursal": "Brown LLC",
+        "numeroMesas": 7,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "48.277257",
+                "-14.5044455"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094379",
+        "sucursal": "West, Mcpherson and Powell",
+        "numeroMesas": 10,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "-109.578678",
+                "18.1012915"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09437a",
+        "sucursal": "West-Todd",
+        "numeroMesas": 14,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "-87.103001",
+                "57.588762"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09437b",
+        "sucursal": "Thomas, Alvarez and Peck",
+        "numeroMesas": 6,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "-24.438951",
+                "30.9328665"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09437c",
+        "sucursal": "Taylor, Evans and Baldwin",
+        "numeroMesas": 7,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "-86.344509",
+                "40.6074335"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09437d",
+        "sucursal": "Moreno, Richmond and Bradley",
+        "numeroMesas": 6,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "-163.113167",
+                "-32.375875"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09437e",
+        "sucursal": "Cummings PLC",
+        "numeroMesas": 8,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "-4.586253",
+                "-67.320915"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c09437f",
+        "sucursal": "Bennett Inc",
+        "numeroMesas": 2,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "64.244925",
+                "-58.990906"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094380",
+        "sucursal": "Weaver LLC",
+        "numeroMesas": 19,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "61.814888",
+                "-16.216623"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094381",
+        "sucursal": "Castillo Ltd",
+        "numeroMesas": 16,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "96.518829",
+                "23.1845705"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094382",
+        "sucursal": "Finley-Phillips",
+        "numeroMesas": 8,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "15.057391",
+                "41.8318605"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094383",
+        "sucursal": "Young-Levine",
+        "numeroMesas": 6,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "-42.945351",
+                "12.1199025"
+            ]
+        }
+    },
+    {
+        "_id": "6816a3c7e14f767c9c094384",
+        "sucursal": "Davidson Ltd",
+        "numeroMesas": 20,
+        "ubicacion": {
+            "type": "Point",
+            "coordinates": [
+                "136.970590",
+                "-73.673530"
+            ]
+        }
+    }
+]

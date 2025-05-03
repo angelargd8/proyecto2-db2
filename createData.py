@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 from tqdm import tqdm
 from bson import ObjectId
 import csv
+import json
 
 fake = Faker()
 NUM_DOCS = 500
@@ -137,16 +138,20 @@ def create_resenias(producto_o_combo_id, usuario_id):
     }
 
 
-def save_to_csv(filename, data):
-    with open(filename, mode='w', newline='', encoding='utf-8') as file:
-        if not data:
-            return
-        writer = csv.DictWriter(file, fieldnames=data[0].keys())
-        writer.writeheader()
-        for item in data:
-            # Convierte ObjectId y listas a string para CSV
-            row = {k: str(v) if isinstance(v, (ObjectId, list, dict)) else v for k, v in item.items()}
-            writer.writerow(row)
+def save_to_json(filename, data):
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(data, f, default=str, indent=4)
+
+    #esto era para guardar en csv, pero no se necesita para el proyecto, sino que se necesito para el lab anterior
+    # with open(filename, mode='w', newline='', encoding='utf-8') as file:
+    #     if not data:
+    #         return
+    #     writer = csv.DictWriter(file, fieldnames=data[0].keys())
+    #     writer.writeheader()
+    #     for item in data:
+    #         # Convierte ObjectId y listas a string para CSV
+    #         row = {k: str(v) if isinstance(v, (ObjectId, list, dict)) else v for k, v in item.items()}
+    #         writer.writerow(row)
 
 
 
@@ -192,14 +197,14 @@ def main():
 
 
 
-    # 7. Guardar todos en CSV
-    save_to_csv("./data/productos.csv", productos)
+    # 7. Guardar todos en json
+    save_to_json("./data/productos.json", productos)
 
-    save_to_csv("./data/combos.csv", combos)
-    save_to_csv("./data/restaurantes.csv", restaurantes)
-    save_to_csv("./data/usuarios.csv", usuarios)
-    save_to_csv("./data/ordenes.csv", ordenes)
-    save_to_csv("./data/resenias.csv", resenias)
+    save_to_json("./data/combos.json", combos)
+    save_to_json("./data/restaurantes.json", restaurantes)
+    save_to_json("./data/usuarios.json", usuarios)
+    save_to_json("./data/ordenes.json", ordenes)
+    save_to_json("./data/resenias.json", resenias)
 
     print("se guardaron los datos")
 
