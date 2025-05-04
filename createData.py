@@ -1,10 +1,7 @@
-from pymongo import MongoClient
 from faker import Faker
 from random import randint, choice, sample
 from datetime import datetime, timedelta
-from tqdm import tqdm
 from bson import ObjectId
-import csv
 import json
 
 fake = Faker()
@@ -141,18 +138,6 @@ def create_resenias(producto_o_combo_id, usuario_id):
 def save_to_json(filename, data):
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, default=str, indent=4)
-
-    #esto era para guardar en csv, pero no se necesita para el proyecto, sino que se necesito para el lab anterior
-    # with open(filename, mode='w', newline='', encoding='utf-8') as file:
-    #     if not data:
-    #         return
-    #     writer = csv.DictWriter(file, fieldnames=data[0].keys())
-    #     writer.writeheader()
-    #     for item in data:
-    #         # Convierte ObjectId y listas a string para CSV
-    #         row = {k: str(v) if isinstance(v, (ObjectId, list, dict)) else v for k, v in item.items()}
-    #         writer.writerow(row)
-
 
 
 def main():

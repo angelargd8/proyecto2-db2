@@ -1,9 +1,5 @@
 from pymongo import MongoClient
-import pandas as pd
-from collections import Counter
 from bson import ObjectId
-import re
-import ast
 from tkinter import *
 from tkinter import ttk 
 from tkinter import messagebox
@@ -33,7 +29,6 @@ def CerrarSesion():
         tab.forget(tab_id)
     
     tabs.clear()
-    # tab.destroy()
     landingPage()
 
 def landingPage(tipoCuenta=None):
@@ -57,10 +52,6 @@ def landingPage(tipoCuenta=None):
     e6.place(x=190, y=80)
 
 
-    # nombre = e4.get()
-    # email = e5.get()
-    # constrasena = e6.get()
-    # tipoCuenta = None
 
     if tipoCuenta == "administrador":
         l7 = Label(tabLanging, text="Ingrese el tipo de cuenta:", fg="#6c584c", font=("Arial", 12))
@@ -89,8 +80,7 @@ def iniciarSesion():
         consultor = ["obtener estadisticas", "reporte de resenias con ordenamiento arbitrario"]
         cliente = ["crear/eliminar cuenta", "editar informacion de la cuenta", "realizar una resena de un producto especifico", "realizar una resena de un combo"]
         mesero = ["crear orden", "ver orden", "cambiar el estado de la orden"]
-
-        
+    
         
         if tipoCuenta == "administrador":
             global tabs
