@@ -60,35 +60,37 @@ def landingPage(tipoCuenta=None):
     tab.add(tabLanging, text="Crear cuenta")
     tabs.append(tabLanging)
 
+    l1 = Label(tabLanging, text="Registrate:", fg="#6c584c", font=("Arial", 24))
+    l1.place(x=10, y=10)
     l4 = Label(tabLanging, text="Ingrese su nombre:", fg="#6c584c", font=("Arial", 12))
-    l4.place(x=10, y=20)
+    l4.place(x=10, y=80)
     e4 = Entry(tabLanging, width=30, font=("Arial", 12), bg="#f4f1e6")
-    e4.place(x=190, y=20)
+    e4.place(x=190, y=80)
 
     l5 = Label(tabLanging, text="Ingrese su correo:", fg="#6c584c", font=("Arial", 12))
-    l5.place(x=10, y=50)
+    l5.place(x=10, y=110)
     e5 = Entry(tabLanging, width=30, font=("Arial", 12), bg="#f4f1e6")
-    e5.place(x=190, y=50)
+    e5.place(x=190, y=110)
 
     l6 = Label(tabLanging, text="Ingrese su contraseña:", fg="#6c584c", font=("Arial", 12))
-    l6.place(x=10, y=80)
+    l6.place(x=10, y=140)
     e6 = Entry(tabLanging, width=30, font=("Arial", 12), bg="#f4f1e6")
-    e6.place(x=190, y=80)
+    e6.place(x=190, y=140)
 
 
 
     if tipoCuenta == "administrador":
         l7 = Label(tabLanging, text="Ingrese el tipo de cuenta:", fg="#6c584c", font=("Arial", 12))
-        l7.place(x=10, y=110)
+        l7.place(x=10, y=170)
         e7 = Entry(tabLanging, width=30, font=("Arial", 12), bg="#f4f1e6")
-        e7.place(x=190, y=110)
+        e7.place(x=190, y=170)
 
         tipoCuenta = e7.get()
 
 
     btn3 = Button(tabLanging, text="Crear cuenta", fg="#ffffff", font=("Arial", 12), bg="#78290f", 
               command=lambda: CreateAccount(usuarios, e4.get(), e5.get(), e6.get(), tipoCuenta))
-    btn3.place(x=510, y=20, height=50)
+    btn3.place(x=510, y=80, height=50)
     return tabLanging
 
 def iniciarSesion(): 
