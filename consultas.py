@@ -2,7 +2,8 @@
 
 #creacion de documentos
 # creacion de 1 documento
-# creacion de productos
+
+# creacion de productos (agregar mas al historial de pedidos)
 
 
 #creacion de varios documentos

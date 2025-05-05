@@ -5,6 +5,7 @@ from bson import ObjectId
 import json
 
 fake = Faker()
+fake.unique.clear() 
 NUM_DOCS = 500
 
 def random_date(start_year=2018):
@@ -16,15 +17,15 @@ def create_usuarios(ordenes_ids):
     return {
         "_id": ObjectId(),
         "nombre": fake.name(),
-        "email": fake.email(),
+        "email": fake.unique.email(),
         "contrasena": fake.password(),
         "historialPedidos": sample(ordenes_ids, randint(0, min(5, len(ordenes_ids)))), #lista de ordenes, referenciado a la coleccion de ordenes
         "tipoCuenta": choice(["administrador", "consultor", "cliente", "mesero"]),   
     }
 
 def create_restaurantes():
-    lat = fake.latitude()
-    lon = fake.longitude()
+    lat = float(fake.latitude())
+    lon = float(fake.longitude())
     return {
         "_id": ObjectId(),
         "sucursal": fake.company(),

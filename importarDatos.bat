@@ -1,5 +1,5 @@
 @echo off
-SET URI=
+SET URI=mongodb+srv://angel:angel123@cluster0.krfnzqa.mongodb.net/restaurante
 
 echo Importando productos...
 mongoimport --uri %URI% --collection productos --type json  --file ./data/productos.json --jsonArray

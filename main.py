@@ -1,9 +1,12 @@
 from pymongo import MongoClient
-from bson import ObjectId
 from tkinter import *
 from tkinter import ttk 
 from tkinter import messagebox
 from login import login, CreateAccount
+from admin import *
+from cliente import *
+from mesero import *
+from consultor import *
 
 uri = "mongodb+srv://angel:angel123@cluster0.krfnzqa.mongodb.net"
 client = MongoClient(uri)
@@ -17,6 +20,27 @@ productos = db["productos"]
 resenias = db["resenias"]
 ordenes = db["ordenes"]
 usuarios = db["usuarios"]
+#indices
+#usuarios
+usuarios.create_index([("email", 1)], unique=True)
+usuarios.create_index([("tipoCuenta", 1), ("nombre", 1)])  #indice compuesto
+usuarios.create_index([("historialPedidos", 1)])  # multikey 
+#restaurantes
+restaurantes.create_index([("ubicacion", "2dsphere")]) # geoespacial
+restaurantes.create_index([("sucursal", "text")])
+#ordenes
+ordenes.create_index([("nombreCliente", 1), ("estado", 1)])
+ordenes.create_index([("pedido.producto", 1)])  # multikey
+#resenias
+resenias.create_index([("producto", 1), ("nombreUsuario", 1)])
+resenias.create_index([("comentario", "text")])
+#productos
+productos.create_index([("nombreProducto", "text"), ("descripcion", "text")])
+productos.create_index([("tipoProducto", 1), ("precio", 1)])
+#combos
+combos.create_index([("items", 1)])  # multikey
+combos.create_index([("nombreCombo", "text")])
+
 
 global tipoCuenta
 global tabs
@@ -76,7 +100,7 @@ def iniciarSesion():
         #validar el correo y la contraseña
         tipoCuenta = login(usuarios, correo, contrasena)
 
-        administrador = ["agregar/eliminar restaurante", "agregar/eliminar producto", "agregar/eliminar/editar menu", "agregar/eliminar usuarios de consultores"]
+        administrador = ["agregar/eliminar restaurante", "agregar/eliminar producto", "agregar/eliminar/editar menu", "eliminar usuario"]
         consultor = ["obtener estadisticas", "reporte de resenias con ordenamiento arbitrario"]
         cliente = ["crear/eliminar cuenta", "editar informacion de la cuenta", "realizar una resena de un producto especifico", "realizar una resena de un combo"]
         mesero = ["crear orden", "ver orden", "cambiar el estado de la orden"]
@@ -89,31 +113,63 @@ def iniciarSesion():
                 
             tabLanging = landingPage(tipoCuenta)
             tabs.append(tabLanging)
+
             
-            for i in range(len(administrador)): 
+            for nombre in administrador:
                 frame = ttk.Frame(tab)
-                tab.add(frame, text=administrador[i])
+                tab.add(frame, text=nombre)
                 tabs.append(frame)
+
+                if nombre == administrador[0]:
+                    mod_restaurante(frame)
+                elif nombre == administrador[1]:
+                    mod_producto(frame)
+                elif nombre == administrador[2]:
+                    mod_menu(frame)
+                elif nombre == administrador[3]:
+                    delete_usuario(frame)
             
-                
 
         elif tipoCuenta == "consultor":
-            for i in consultor: 
+            for nombre in consultor:
                 frame = ttk.Frame(tab)
-                tab.add(frame, text=consultor[i])
+                tab.add(frame, text=nombre)
                 tabs.append(frame)
+
+                if nombre == consultor[0]:
+                    pass
+                elif nombre == consultor[1]:
+                    pass
 
         elif tipoCuenta == "cliente":
-            for i in cliente: 
+            for nombre in cliente:
                 frame = ttk.Frame(tab)
-                tab.add(frame, text=cliente[i])
+                tab.add(frame, text=nombre)
                 tabs.append(frame)
+                
+                if nombre == cliente[0]:
+                    pass
+                elif nombre == cliente[1]:
+                    pass
+                if nombre == cliente[2]:
+                    pass
+                elif nombre == cliente[3]:
+                    pass
+                
 
         elif tipoCuenta == "mesero":
-            for i in mesero: 
+            for nombre in mesero:
                 frame = ttk.Frame(tab)
-                tab.add(frame, text=mesero[i])
+                tab.add(frame, text=nombre)
                 tabs.append(frame)
+
+                if nombre == mesero[0]:
+                    pass
+                elif nombre == mesero[1]:
+                    pass
+                if nombre == mesero[2]:
+                    pass
+
 
 v = Tk()
 v.title("caféCITo ☕🍪")
@@ -125,13 +181,13 @@ l2 = Label(v, text="Ingrese su correo:", fg= "#6c584c" , font=("Arial", 12),bg="
 l2.place(x=10, y=80)
 e2 = Entry(v, width=30, font=("Arial", 12), bg="#f4f1e6")
 e2.place(x=190, y=80)
-e2.insert(0, "hsolomon@example.org")
+e2.insert(0, "christinagonzalez@example.org")
 
 l3 = Label(v, text="Ingrese su contraseña:", fg= "#6c584c" , font=("Arial", 12),bg="#e3d5ca")
 l3.place(x=10, y=110)
 e3 = Entry(v, width=30, font=("Arial", 12), bg="#f4f1e6")
 e3.place(x=190, y=110)
-e3.insert(0, "!*5OuIQsxg")
+e3.insert(0, "&)2766VgcX")
 
 btn1 = Button(v, text="Iniciar sesión", fg="#6c584c", font=("Arial", 12), bg="#f4f1e6", command=iniciarSesion)
 btn1.place(x=510, y=80, height=50)
@@ -146,7 +202,5 @@ tab.place(x=10,y=150)
 
 landingPage()
 
-
-# v.resizable(0, 0)
 
 v.mainloop()
