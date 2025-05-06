@@ -145,10 +145,10 @@ def mod_producto(parent, productos, combos):
     btn5.place(x=570, y=220, height=30, width=160)
     btn6 = Button(parent, text="Agregar Otro", fg="#ffffff", font=("Arial", 12), bg="#78290f",
                   command=lambda: agregar_cola(productos, e10.get(), e6.get(), e7.get(), e8.get(), e9.get()) )
-    btn6.place(x=570, y=250, height=30, width=160)
+    btn6.place(x=570, y=260, height=30, width=160)
     btn7 = Button(parent, text="Agregar Todos", fg="#ffffff", font=("Arial", 12), bg="#78290f",
                   command=lambda: add_variosP(productos) )
-    btn7.place(x=570, y=280, height=30, width=160)
+    btn7.place(x=570, y=310, height=30, width=160)
 
 global lista_productos
 lista_productos = []
