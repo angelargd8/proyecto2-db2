@@ -1,7 +1,7 @@
 from faker import Faker
 from random import randint, choice, sample
 from datetime import datetime, timedelta
-from bson import ObjectId
+from bson import ObjectId, json_util
 import json
 
 fake = Faker()
@@ -138,7 +138,7 @@ def create_resenias(producto_o_combo_id, usuario_id):
 
 def save_to_json(filename, data):
     with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(data, f, default=str, indent=4)
+        f.write(json_util.dumps(data, indent=4))
 
 
 def main():

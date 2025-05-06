@@ -61,7 +61,7 @@ def landingPage(tipoCuenta=None):
     tabs.append(tabLanging)
 
     l1 = Label(tabLanging, text="Registrate:", fg="#6c584c", font=("Arial", 24))
-    l1.place(x=10, y=10)
+    l1.place(x=10, y=15)
     l4 = Label(tabLanging, text="Ingrese su nombre:", fg="#6c584c", font=("Arial", 12))
     l4.place(x=10, y=80)
     e4 = Entry(tabLanging, width=30, font=("Arial", 12), bg="#f4f1e6")
@@ -102,7 +102,7 @@ def iniciarSesion():
         #validar el correo y la contraseña
         tipoCuenta = login(usuarios, correo, contrasena)
 
-        administrador = ["agregar/eliminar restaurante", "agregar/eliminar producto", "agregar/eliminar/editar menu", "eliminar usuario"]
+        administrador = ["agregar/eliminar restaurante", "agregar/eliminar producto", "agregar/eliminar menu", "editar menu", "eliminar usuario"]
         consultor = ["obtener estadisticas", "reporte de resenias con ordenamiento arbitrario"]
         cliente = ["crear/eliminar cuenta", "editar informacion de la cuenta", "realizar una resena de un producto especifico", "realizar una resena de un combo"]
         mesero = ["crear orden", "ver orden", "cambiar el estado de la orden"]
@@ -123,12 +123,14 @@ def iniciarSesion():
                 tabs.append(frame)
 
                 if nombre == administrador[0]:
-                    mod_restaurante(frame)
+                    mod_restaurante(frame,restaurantes)
                 elif nombre == administrador[1]:
                     mod_producto(frame)
                 elif nombre == administrador[2]:
                     mod_menu(frame)
                 elif nombre == administrador[3]:
+                    mod_combos(frame)
+                elif nombre == administrador[4]:
                     delete_usuario(frame)
             
 
@@ -199,7 +201,7 @@ btn2.place(x=630, y=80, height=50)
 #pestañas 
 tab= ttk.Notebook(v)
 tab.pack()
-tab.config(width="800", height="500")
+tab.config(width="780", height="500")
 tab.place(x=10,y=150)
 
 landingPage()
