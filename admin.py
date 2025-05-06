@@ -91,7 +91,7 @@ def delete_restaurante(restaurantes, id_restaurante):
         messagebox.showerror("Error", "Restaurante no encontrado")
 
 
-def mod_producto(parent):
+def mod_producto(parent, productos):
     l1 = Label(parent, text="Agregar/eliminar producto:", fg="#6c584c", font=("Arial", 24))
     l1.place(x=10, y=15)
 
@@ -142,7 +142,7 @@ def delete_producto(parent):
     pass
 
 
-def mod_menu(parent):
+def mod_menu(parent, combos):
     l1 = Label(parent, text="Editar menu:", fg="#6c584c", font=("Arial", 24))
     l1.place(x=10, y=15)
 
@@ -194,7 +194,7 @@ def delete_combo(parent):
     pass
 
 
-def mod_combos(parent):
+def mod_combos(parent, combos):
     l1 = Label(parent, text="Editar Combo:", fg="#6c584c", font=("Arial", 24))
     l1.place(x=10, y=15)
 
@@ -238,7 +238,7 @@ def mod_combos(parent):
 
 
 
-def delete_usuario(parent):
+def delete_usuario(parent, usuarios):
     l1 = Label(parent, text="Borrar usuario:", fg="#6c584c", font=("Arial", 24))
     l1.place(x=10, y=15)
 
