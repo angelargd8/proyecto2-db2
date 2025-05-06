@@ -110,7 +110,7 @@ def iniciarSesion():
 
         administrador = ["agregar/eliminar restaurante", "agregar/eliminar producto", "agregar/eliminar menu", "editar menu", "eliminar usuario"]
         consultor = [ "reporte de resenias con ordenamiento arbitrario"]
-        cliente = ["crear/eliminar cuenta", "realizar una resena de un producto especifico", "realizar una resena de un combo"]
+        cliente = ["eliminar cuenta", "realizar una resena de un producto especifico", "realizar una resena de un combo"]
         mesero = ["crear orden", "ver orden", "cambiar el estado de la orden"]
     
         global lrol2
@@ -157,11 +157,11 @@ def iniciarSesion():
                 tabs.append(frame)
                 
                 if nombre == cliente[0]:
-                    pass
+                    del_cuenta(frame, usuarios, correo)
                 elif nombre == cliente[1]:
-                    add_resenia_producto(frame, productos)
+                    add_resenia_producto(frame, resenias,productos, correo, usuarios)
                 if nombre == cliente[2]:
-                    add_resenia_combo(frame, combos)
+                    add_resenia_combo(frame, resenias,combos, correo, usuarios)
                 
                 
 
