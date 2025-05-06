@@ -140,10 +140,43 @@ def mod_producto(parent, productos, combos):
     e9 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
     e9.place(x=280, y=340)
 
-    btn5 = Button(parent, text="Agregar producto", fg="#ffffff", font=("Arial", 12), bg="#78290f", 
+    btn5 = Button(parent, text="Agregar Producto", fg="#ffffff", font=("Arial", 12), bg="#78290f", 
                   command=lambda: add_producto(productos, e10.get(), e6.get(), e7.get(), e8.get(), e9.get()))
     btn5.place(x=570, y=220, height=30, width=160)
+    btn6 = Button(parent, text="Agregar Otro", fg="#ffffff", font=("Arial", 12), bg="#78290f",
+                  command=lambda: agregar_cola(productos, e10.get(), e6.get(), e7.get(), e8.get(), e9.get()) )
+    btn6.place(x=570, y=250, height=30, width=160)
+    btn7 = Button(parent, text="Agregar Todos", fg="#ffffff", font=("Arial", 12), bg="#78290f",
+                  command=lambda: add_variosP(productos) )
+    btn7.place(x=570, y=280, height=30, width=160)
 
+global lista_productos
+lista_productos = []
+# esta funcion es para agregar a varios productos
+def agregar_cola(productos, tipoProducto, nombre, descripcion, precio, url):
+    global lista_productos
+    if not nombre or not descripcion or not precio or not url or not tipoProducto:
+        messagebox.showerror("Error", "Todos los campos son obligatorios")
+    else:
+        precio = float(precio)
+        nuevo_producto = {
+                    "_id": ObjectId(),
+                    "tipoProducto": tipoProducto,
+                    "nombreProducto": nombre,
+                    "descripcion": descripcion,
+                    "precio": precio,
+                    "imagenProducto": url
+                }
+        lista_productos.append(nuevo_producto)
+        messagebox.showinfo("!", "Agregado a la cola")
+
+def add_variosP(productos):
+    if len(lista_productos) > 0:
+        r = productos.insert_many(lista_productos)
+        print("Insertados:", r)
+        messagebox.showinfo("!", "Productos agregados")
+    else:
+        messagebox.showerror("Error", "No hay productos para agregar")
 
 def add_producto(productos, tipoProducto, nombre, descripcion, precio, url):
     

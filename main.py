@@ -8,10 +8,13 @@ from cliente import *
 from mesero import *
 from consultor import *
 
-uri = "mongodb+srv://angel:angel123@cluster0.krfnzqa.mongodb.net"
+# uri = "mongodb+srv://angel:angel123@cluster0.krfnzqa.mongodb.net"
+uri = "mongodb+srv://agu22243:cluster0123@cluster0.pq41dbr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 client = MongoClient(uri)
-db = client["restaurante"]
+# db = client["restaurante"]
+db = client["test"]
 print("Conectado a la base de datos")
+
 # print("Base de datos: ", db.name)
 # print("Colecciones: ", db.list_collection_names())
 restaurantes = db["restaurantes"]
@@ -44,11 +47,14 @@ combos.create_index([("nombreCombo", "text")])
 
 global tipoCuenta
 global tabs
+global lrol2
 tabs =[]
 
 
 def CerrarSesion():
     global tabs
+    global lrol2
+    lrol2.config(text="")
     for tab_id in tab.tabs(): 
         tab.forget(tab_id)
     
@@ -107,7 +113,8 @@ def iniciarSesion():
         cliente = ["crear/eliminar cuenta", "editar informacion de la cuenta", "realizar una resena de un producto especifico", "realizar una resena de un combo"]
         mesero = ["crear orden", "ver orden", "cambiar el estado de la orden"]
     
-        
+        global lrol2
+        lrol2.config(text=tipoCuenta)
         if tipoCuenta == "administrador":
             global tabs
             for tab_id in tabs: 
@@ -193,6 +200,11 @@ e3 = Entry(v, width=30, font=("Arial", 12), bg="#f4f1e6")
 e3.place(x=190, y=110)
 e3.insert(0, "^fgMG8Nm7U")
 
+lrol = Label(v, text="Rol:", fg= "#6c584c" , font=("Arial", 12),bg="#e3d5ca")
+lrol.place(x=10, y=145)
+lrol2 = Label(v, text="", fg= "#6c584c" , font=("Arial", 12),bg="#e3d5ca")
+lrol2.place(x=40, y=145)
+
 btn1 = Button(v, text="Iniciar sesión", fg="#6c584c", font=("Arial", 12), bg="#f4f1e6", command=iniciarSesion)
 btn1.place(x=510, y=80, height=50)
 btn2 = Button(v, text="Cerrar sesión", fg="#ffffff", font=("Arial", 12), bg="#78290f", command=CerrarSesion)
@@ -201,8 +213,8 @@ btn2.place(x=630, y=80, height=50)
 #pestañas 
 tab= ttk.Notebook(v)
 tab.pack()
-tab.config(width="780", height="500")
-tab.place(x=10,y=150)
+tab.config(width="780", height="600")
+tab.place(x=10,y=170)
 
 landingPage()
 
