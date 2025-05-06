@@ -185,13 +185,13 @@ l2 = Label(v, text="Ingrese su correo:", fg= "#6c584c" , font=("Arial", 12),bg="
 l2.place(x=10, y=80)
 e2 = Entry(v, width=30, font=("Arial", 12), bg="#f4f1e6")
 e2.place(x=190, y=80)
-e2.insert(0, "christinagonzalez@example.org")
+e2.insert(0, "jacksonjuan@example.net")
 
 l3 = Label(v, text="Ingrese su contraseña:", fg= "#6c584c" , font=("Arial", 12),bg="#e3d5ca")
 l3.place(x=10, y=110)
 e3 = Entry(v, width=30, font=("Arial", 12), bg="#f4f1e6")
 e3.place(x=190, y=110)
-e3.insert(0, "&)2766VgcX")
+e3.insert(0, "^fgMG8Nm7U")
 
 btn1 = Button(v, text="Iniciar sesión", fg="#6c584c", font=("Arial", 12), bg="#f4f1e6", command=iniciarSesion)
 btn1.place(x=510, y=80, height=50)

@@ -2,6 +2,9 @@
 
 #creacion de documentos
 # creacion de 1 documento
+        # lo que ya esta: 
+        # - creacion de restaurante
+        # - creacion de usuario
 
 # creacion de productos (agregar mas al historial de pedidos)
 
@@ -27,4 +30,9 @@
 #eliminacion de documentos
 #eliminar ordenes
 # - delete_one
+            #lo que ya esta:
+            # - eliminar restaurante
+
+
+
 # - delete_many
