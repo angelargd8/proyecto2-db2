@@ -234,7 +234,6 @@ def delete_producto(productos, combos, id_producto):
     
 
 
-
 def mod_menu(parent, combos):
     l1 = Label(parent, text="Editar menu:", fg="#6c584c", font=("Arial", 24))
     l1.place(x=10, y=15)
@@ -247,7 +246,9 @@ def mod_menu(parent, combos):
     e5 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
     e5.place(x=280, y=120)
 
-    btn4 = Button(parent, text="Borrar producto", fg="#ffffff", font=("Arial", 12), bg="#78290f")
+    btn4 = Button(parent, text="Borrar producto", fg="#ffffff", font=("Arial", 12), bg="#78290f", 
+                  command=lambda: delete_combo(combos, e5.get()))
+    
     btn4.place(x=570, y=120, height=30, width=160)
 
     l9 = Label(parent, text="Agregar nuevo combo:", fg="#ffffff", font=("Arial", 12), bg="#a98467")
@@ -277,18 +278,63 @@ def mod_menu(parent, combos):
     e9 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
     e9.place(x=280, y=390)
 
-    btn5 = Button(parent, text="Agregar combo", fg="#ffffff", font=("Arial", 12), bg="#78290f")
+    btn5 = Button(parent, text="Agregar combo", fg="#ffffff", font=("Arial", 12), bg="#78290f", 
+                  command=lambda: add_combo(combos, e6.get(), text_items.get("1.0", "end-1c"), e8.get(), e9.get()))
     btn5.place(x=570, y=220, height=30, width=160)
 
-def add_combo(parent):
-    pass
+def add_combo(combos, nombreCombo, items, precio, imagenCombo):
+    #validar que hayan datos
+    if not nombreCombo or not items or not precio or not imagenCombo:
+        messagebox.showerror("Error", "Por favor complete todos los campos")
+        return
+    else: 
+        try: 
+            combo = combos.find_one({"nombreCombo": nombreCombo})
+            if combo:
+                messagebox.showerror("Error", "El combo ya existe")
+            else:
+                #print(items)
+                # convertir texto multilinea en lista de ObjectId
+                ids = [
+                    ObjectId(line.strip())
+                    for line in items.strip().splitlines()
+                    if ObjectId.is_valid(line.strip())
+                ]
 
-def delete_combo(parent):
-    pass
+                if not ids:
+                    messagebox.showerror("Error", "Debe ingresar al menos un ID válido de producto")
+
+                precio = float(precio)
+                nuevo_combo = {
+                    "_id": ObjectId(),
+                    "nombreCombo": nombreCombo,
+                    "items": ids,
+                    "precio": precio,
+                    "imagenCombo": imagenCombo
+                }
+
+                combos.insert_one(nuevo_combo)
+                messagebox.showinfo("Agregar combo", "Combo agregado con éxito")
+
+        except ValueError:
+            messagebox.showerror("Error", "El precio debe ser un número válido")
+        except SyntaxError:
+            messagebox.showerror("Error", "Formato de productos incorrecto")
+
+
+def delete_combo(combos, id_combo):
+    id_combo = ObjectId(id_combo.strip())
+    combo = combos.find_one({"_id": id_combo})
+    if combo:
+        combos.delete_one({"_id": id_combo})
+        messagebox.showinfo("Eliminar combo", "Combo eliminado con éxito")
+    else:
+        messagebox.showerror("Error", "Combo no encontrado")
+    
 
 
 def mod_combos(parent, combos):
-    l1 = Label(parent, text="Editar Combo:", fg="#6c584c", font=("Arial", 24))
+    l1 = Label(parent, text="Editar y buscar Combo:", fg="#6c584c", font=("Arial", 24))
     l1.place(x=10, y=15)
 
     l5 = Label(parent, text="Ingrese el id del combo:", fg="#6c584c", font=("Arial", 12))
@@ -296,7 +342,8 @@ def mod_combos(parent, combos):
     e5 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
     e5.place(x=280, y=90)
 
-    btn4 = Button(parent, text="Buscar combo", fg="#ffffff", font=("Arial", 12), bg="#78290f")
+    btn4 = Button(parent, text="Buscar combo", fg="#ffffff", font=("Arial", 12), bg="#78290f", 
+                  command=lambda: find_combo(combos, e5.get()))
     btn4.place(x=570, y=90, height=30, width=160)
 
     l9 = Label(parent, text="Datos del combo:", fg="#ffffff", font=("Arial", 12), bg="#a98467")
@@ -326,28 +373,117 @@ def mod_combos(parent, combos):
     e9 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
     e9.place(x=280, y=330)
 
-    btn5 = Button(parent, text="Editar combo", fg="#ffffff", font=("Arial", 12), bg="#78290f")
+    btn5 = Button(parent, text="Editar combo", fg="#ffffff", font=("Arial", 12), bg="#78290f", 
+                  command=lambda: update_combo(combos, e5.get(), e6.get(), text_items.get("1.0", "end-1c"), e8.get(), e9.get()))
     btn5.place(x=570, y=190, height=30, width=160)
 
+
+    def find_combo(combos, id_combo):
+        if not id_combo:
+            messagebox.showerror("Error", "Por favor ingrese un ID de combo")
+        else: 
+            id_combo = ObjectId(id_combo.strip())
+            combo = combos.find_one({"_id": id_combo})
+            if combo:
+                e6.delete(0, "end")
+                e6.insert(0, combo["nombreCombo"])
+                text_items.delete("1.0", "end")
+                text_items.insert("1.0", combo["items"])
+                e8.delete(0, "end")
+                e8.insert(0, combo["precio"])
+                e9.delete(0, "end")
+                e9.insert(0, combo["imagenCombo"])
+            else:
+                messagebox.showerror("Error", "Combo no encontrado")
+                
+
+def update_combo(combos, id_combo, nombreCombo, items, precio, imagenCombo):
+    if not id_combo or not nombreCombo or not items or not precio or not imagenCombo:
+        messagebox.showerror("Error", "Por favor complete todos los campos")
+    else:
+        combo = combos.find_one({"_id": ObjectId(id_combo.strip())})
+        if combo:
+            try:
+                # Convertir texto multilinea en lista de ObjectId
+                ids = [
+                    ObjectId(line.strip())
+                    for line in items.strip().splitlines()
+                    if ObjectId.is_valid(line.strip())
+                ]
+
+                if not ids:
+                    messagebox.showerror("Error", "Debe ingresar al menos un ID válido de producto")
+                    return
+
+                precio = float(precio)
+                nuevo_combo = {
+                    "_id": ObjectId(id_combo.strip()),
+                    "nombreCombo": nombreCombo,
+                    "items": ids,
+                    "precio": precio,
+                    "imagenCombo": imagenCombo
+                }
+
+                combos.update_one({"_id": ObjectId(id_combo.strip())}, {"$set": nuevo_combo})
+                messagebox.showinfo("Editar combo", "Combo editado con éxito")
+
+            except ValueError:
+                messagebox.showerror("Error", "El precio debe ser un número válido")
+            except SyntaxError:
+                messagebox.showerror("Error", "Formato de productos incorrecto")
 
 
 def delete_usuario(parent, usuarios, ordenes):
     l1 = Label(parent, text="Borrar usuario:", fg="#6c584c", font=("Arial", 24))
     l1.place(x=10, y=15)
 
-    l5 = Label(parent, text="Ingrese el id del usuario:", fg="#6c584c", font=("Arial", 12))
-    l5.place(x=10, y=90)
-    e5 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
-    e5.place(x=280, y=90)
+    l10 = Label(parent, text="Eliminar:", fg="#ffffff", font=("Arial", 12), bg="#a98467")
+    l10.place(x=10, y=90)
 
-    btn4 = Button(parent, text="Borrar un usuario", fg="#ffffff", font=("Arial", 12), bg="#78290f")
+    l5 = Label(parent, text="Ingrese los ids de los usuarios:", fg="#6c584c", font=("Arial", 12))
+    l5.place(x=10, y=90)
+    text_items = Text(parent, width=30, height=5, font=("Arial", 12), bg="#f4f1e6")
+    text_items.place(x=280, y=90)
+
+    btn4 = Button(parent, text="Borrar usuario(s)", fg="#ffffff", font=("Arial", 12), bg="#78290f",
+                  command=lambda: del_usuarios(usuarios, ordenes, text_items.get("1.0", "end-1c")))
     btn4.place(x=570, y=90, height=30, width=160)
 
 
-def del_usuario(usuarios, ordenes,  id_usuario):
+def del_usuarios(usuarios, ordenes, items):
     #poner agregacioens de ver si tiene ordenes asociadas antes de eliminar
-    pass
+    if not items:
+        messagebox.showerror("Error", "Por favor ingrese al menos un ID de usuario")
+    else:
+        # convertir texto multilinea en lista de ObjectId
+        ids = [
+            ObjectId(line.strip())
+            for line in items.strip().splitlines()
+            if ObjectId.is_valid(line.strip())
+        ]
 
-def del_usuarios(usuarios, ordenes, id_usuario1, id_usuario2):
-    #poner agregacioens de ver si tiene ordenes asociadas antes de eliminar
-    pass
+        eliminables = []
+
+        for id_usuario in ids:
+            # Verificar si el usuario tiene ordenes asociadas
+            usuario = usuarios.find_one({"_id": id_usuario})
+            if not usuario: 
+                messagebox.showwarning("Warning", f"el usuario con ID {id_usuario} no encontrado")
+                continue
+            # verificar ordenes asociadas con argeragacioens
+            pipeline = [
+                { "$match": { "nombreCliente": id_usuario } },
+                { "$limit": 1 }
+            ]
+            tiene_ordenes = list(ordenes.aggregate(pipeline))
+
+            if tiene_ordenes:
+                messagebox.showwarning("Aviso", f"Usuario {usuario['nombre']} no se puede eliminar: tiene órdenes asociadas")
+            else:
+                eliminables.append(id_usuario)
+
+        if eliminables:
+            result = usuarios.delete_many({ "_id": { "$in": eliminables } })
+            messagebox.showinfo("Resultado", f"{result.deleted_count} usuario(s) eliminados con éxito")
+        else:
+            messagebox.showinfo("Resultado", "No se eliminaron usuarios")
