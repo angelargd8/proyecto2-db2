@@ -125,13 +125,13 @@ def iniciarSesion():
                 if nombre == administrador[0]:
                     mod_restaurante(frame,restaurantes)
                 elif nombre == administrador[1]:
-                    mod_producto(frame)
+                    mod_producto(frame, productos)
                 elif nombre == administrador[2]:
-                    mod_menu(frame)
+                    mod_menu(frame, combos)
                 elif nombre == administrador[3]:
-                    mod_combos(frame)
+                    mod_combos(frame, combos)
                 elif nombre == administrador[4]:
-                    delete_usuario(frame)
+                    delete_usuario(frame, usuarios)
             
 
         elif tipoCuenta == "consultor":
