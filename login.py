@@ -29,7 +29,7 @@ def login(usuarios, correo, contrasena):
         messagebox.showerror("Error", "Usuario no encontrado")
         
 
-def CreateAccount(usuarios, nombre, email, constrasena, tipoCuenta=None):
+def CreateAccount(usuarios, nombre, email, constrasena, tipoCuenta="cliente"):
     usuario_id = ObjectId()
     #buscar que el email no exista
     val_email = usuarios.find_one({"email": email})

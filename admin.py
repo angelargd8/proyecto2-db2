@@ -34,8 +34,11 @@ def mod_restaurante(parent, restaurantes):
     e7 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
     e7.place(x=280, y=250)
 
-    l8 = Label(parent, text="Las coordenadas de la sucursal (long,lat):", fg="#6c584c", font=("Arial", 12))
+    l8 = Label(parent, text="Las coordenadas de la sucursal:", fg="#6c584c", font=("Arial", 12))
     l8.place(x=10, y=280)
+
+    l8_1 = Label(parent, text="(longitud , latitude)", fg="#6c584c", font=("Arial", 12))
+    l8_1.place(x=10, y=300)
 
     e8 = Entry(parent, width=5, font=("Arial", 12), bg="#f4f1e6")
     e8.place(x=280, y=280)
@@ -91,7 +94,7 @@ def delete_restaurante(restaurantes, id_restaurante):
         messagebox.showerror("Error", "Restaurante no encontrado")
 
 
-def mod_producto(parent, productos):
+def mod_producto(parent, productos, combos):
     l1 = Label(parent, text="Agregar/eliminar producto:", fg="#6c584c", font=("Arial", 24))
     l1.place(x=10, y=15)
 
@@ -103,43 +106,100 @@ def mod_producto(parent, productos):
     e5 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
     e5.place(x=280, y=120)
 
-    btn4 = Button(parent, text="Borrar producto", fg="#ffffff", font=("Arial", 12), bg="#78290f")
+    btn4 = Button(parent, text="Borrar producto", fg="#ffffff", font=("Arial", 12), bg="#78290f",
+                  command=lambda: delete_producto(productos, combos, e5.get()))
     btn4.place(x=570, y=120, height=30, width=160)
 
     l9 = Label(parent, text="Agregar nuevo producto:", fg="#ffffff", font=("Arial", 12), bg="#a98467")
     l9.place(x=10, y=190)
 
+    l10 = Label(parent, text="Ingrese el tipo de producto:", fg="#6c584c", font=("Arial", 12))
+    l10.place(x=10, y=220)
+    e10 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
+    e10.place(x=280, y=220)
+
     l6 = Label(parent, text="Ingrese nuevo nombre del producto:", fg="#6c584c", font=("Arial", 12))
-    l6.place(x=10, y=220)
+    l6.place(x=10, y=250)
     e6 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
-    e6.place(x=280, y=220)
+    e6.place(x=280, y=250)
 
     l7 = Label(parent, text="Descripcion:", fg="#6c584c", font=("Arial", 12))
-    l7.place(x=10, y=250)
+    l7.place(x=10, y=280)
     e7 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
-    e7.place(x=280, y=250)
+    e7.place(x=280, y=280)
 
     l8 = Label(parent, text="Precio:", fg="#6c584c", font=("Arial", 12))
-    l8.place(x=10, y=280)
+    l8.place(x=10, y=310)
 
     e8 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
-    e8.place(x=280, y=280)
+    e8.place(x=280, y=310)
 
     l10 = Label(parent, text="Url de la imagen:", fg="#6c584c", font=("Arial", 12))
-    l10.place(x=10, y=310)
+    l10.place(x=10, y=340)
 
     e9 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
-    e9.place(x=280, y=310)
+    e9.place(x=280, y=340)
 
-    btn5 = Button(parent, text="Agregar producto", fg="#ffffff", font=("Arial", 12), bg="#78290f")
+    btn5 = Button(parent, text="Agregar producto", fg="#ffffff", font=("Arial", 12), bg="#78290f", 
+                  command=lambda: add_producto(productos, e10.get(), e6.get(), e7.get(), e8.get(), e9.get()))
     btn5.place(x=570, y=220, height=30, width=160)
 
 
-def add_producto(parent):
-    pass
+def add_producto(productos, tipoProducto, nombre, descripcion, precio, url):
+    
+    if not nombre or not descripcion or not precio or not url or not tipoProducto:
+        messagebox.showerror("Error", "Todos los campos son obligatorios")
+    else: 
+        nombre_exist = productos.find_one({"nombreProducto": nombre})
+        if nombre_exist:
+            messagebox.showerror("Error", "El producto ya existe")
+        else:
+            try:
+                precio = float(precio)
+                nuevo_producto = {
+                    "_id": ObjectId(),
+                    "tipoProducto": tipoProducto,
+                    "nombreProducto": nombre,
+                    "descripcion": descripcion,
+                    "precio": precio,
+                    "imagenProducto": url
+                }
+                productos.insert_one(nuevo_producto)
+                messagebox.showinfo("Agregar producto", "Producto agregado con éxito")
+            except ValueError:
+                messagebox.showerror("Error", "El precio debe ser un número")
 
-def delete_producto(parent):
-    pass
+def delete_producto(productos, combos, id_producto):
+    id_producto = ObjectId(id_producto.strip())
+    producto = productos.find_one({"_id": id_producto})
+    # print(producto)
+    if producto:
+
+        # Verificar si el producto esta dentro de algun combo 
+        #el pipeline cumple con la agregacion de manejo de arrays con in y complejas por el match
+        pipeline = [
+            {
+                "$match": {
+                    "$expr": {
+                        "$in": [id_producto, "$items"]
+                    }
+                }
+            },
+            { "$limit": 1 }  #porque solo necesitamos saber si existe
+        ]
+
+        usado = list(combos.aggregate(pipeline))
+
+        if usado:
+            messagebox.showerror("Error", "El producto no se puede eliminar porque está dentro de un combo")
+        else:
+            productos.delete_one({"_id": id_producto})
+            messagebox.showinfo("Eliminar producto", "Producto eliminado con éxito")
+
+    else:
+        messagebox.showerror("Error", "Producto no encontrado")
+    
+
 
 
 def mod_menu(parent, combos):
@@ -238,7 +298,7 @@ def mod_combos(parent, combos):
 
 
 
-def delete_usuario(parent, usuarios):
+def delete_usuario(parent, usuarios, ordenes):
     l1 = Label(parent, text="Borrar usuario:", fg="#6c584c", font=("Arial", 24))
     l1.place(x=10, y=15)
 
@@ -247,5 +307,14 @@ def delete_usuario(parent, usuarios):
     e5 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
     e5.place(x=280, y=90)
 
-    btn4 = Button(parent, text="Borrar usuario", fg="#ffffff", font=("Arial", 12), bg="#78290f")
+    btn4 = Button(parent, text="Borrar un usuario", fg="#ffffff", font=("Arial", 12), bg="#78290f")
     btn4.place(x=570, y=90, height=30, width=160)
+
+
+def del_usuario(usuarios, ordenes,  id_usuario):
+    #poner agregacioens de ver si tiene ordenes asociadas antes de eliminar
+    pass
+
+def del_usuarios(usuarios, ordenes, id_usuario1, id_usuario2):
+    #poner agregacioens de ver si tiene ordenes asociadas antes de eliminar
+    pass
