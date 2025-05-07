@@ -143,22 +143,22 @@ def save_to_json(filename, data):
 
 def main():
     # 1. crear productos
-    productos = [create_productos() for _ in range(100)]
+    productos = [create_productos() for _ in range(10000)]
     productos_dict = {p["_id"]: p for p in productos}
     productos_ids = list(productos_dict.keys())
 
     # 2. crear combos referencian productos
-    combos = [create_combo(productos_ids) for _ in range(30)]
+    combos = [create_combo(productos_ids) for _ in range(300)]
 
     # 3. crear restaurantes con ubicacion geoespacia
-    restaurantes = [create_restaurantes() for _ in range(20)]
+    restaurantes = [create_restaurantes() for _ in range(5000)]
 
     # 4. crear usuarios vacios, se llenarán con órdenes luego
     usuarios = []
 
     # 5. crear ordenes y asociarlas a usuarios
     ordenes = []
-    for _ in range(500):
+    for _ in range(35000):
         usuario_id = ObjectId()
         orden_ids = []
         for _ in range(randint(1, 5)):
@@ -173,7 +173,7 @@ def main():
 
     # 6. Crear reseñas
     resenias = []
-    for _ in range(500):
+    for _ in range(5000):
         if choice([True, False]):
             ref_id = choice(productos_ids)
         else:
