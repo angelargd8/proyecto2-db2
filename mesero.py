@@ -3,28 +3,109 @@ from tkinter import ttk
 from tkinter import messagebox
 from pymongo import MongoClient
 from bson import ObjectId
-
+from datetime import datetime
 
 # contar ordenes simples y entregadas / agregacion simple
 
 def crear_orden(parent, ordenes, productos, combos):
-    l1 = Label(parent, text="Ver orden:", fg="#6c584c", font=("Arial", 24))
+    l1 = Label(parent, text="Crear orden:", fg="#6c584c", font=("Arial", 24))
     l1.place(x=10, y=15)
 
     # l10 = Label(parent, text="ver orden:", fg="#ffffff", font=("Arial", 12), bg="#a98467")
     # l10.place(x=10, y=90)
 
-    l5 = Label(parent, text="Ingrese el id de la orden:", fg="#6c584c", font=("Arial", 12))
+    l5 = Label(parent, text="Ingrese el id del cliente: ", fg="#6c584c", font=("Arial", 12))
     l5.place(x=10, y=90)
     e5 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
     e5.place(x=280, y=90)
 
-    btn4 = Button(parent, text="ver orden", fg="#ffffff", font=("Arial", 12), bg="#78290f")#, 
-                #    command=lambda: ver_detalles_orden(ordenes, e5.get()))
+    
+
+    l9 = Label(parent, text="Datos de la orden:", fg="#ffffff", font=("Arial", 12), bg="#a98467")
+    l9.place(x=10, y=160)
+
+    l6 = Label(parent, text="Fecha:", fg="#6c584c", font=("Arial", 12))
+    l6.place(x=10, y=190)
+    e6 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
+    e6.place(x=280, y=190)
+
+    l8 = Label(parent, text="metodo de pago:", fg="#6c584c", font=("Arial", 12))
+    l8.place(x=10, y=220)
+    e8 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
+    e8.place(x=280, y=220)
+
+    l7 = Label(parent, text="Ingrese (ID producto, cantidad, especificaciones):", fg="#6c584c", font=("Arial", 12))
+    l7.place(x=10, y=250)
+
+    text_items = Text(parent, width=70, height=5, font=("Arial", 12), bg="#f4f1e6")
+    text_items.place(x=10, y=280)
+
+    l9 = Label(parent, text="Id orden:", fg="#6c584c", font=("Arial", 12))
+    l9.place(x=10, y=380)
+    e9 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
+    e9.place(x=280, y=380)
+
+
+    def guardar_orden():
+        cliente_id = e5.get().strip()
+        fecha = e6.get().strip()
+        metodo = e8.get().strip()
+        pedido_texto = text_items.get("1.0", "end-1c")
+
+        if not cliente_id or not fecha or not metodo or not pedido_texto:
+            messagebox.showerror("Error", "Complete todos los campos")
+            return
+
+        try:
+            fecha_dt = datetime.strptime(fecha, "%d-%m-%Y")
+            pedido = []
+            total = 0.0
+
+            for linea in pedido_texto.strip().splitlines():
+                partes = linea.split(",")
+                if len(partes) != 3:
+                    raise ValueError("Cada línea debe tener: ID, cantidad, especificaciones")
+
+                producto_id = ObjectId(partes[0].strip())
+                cantidad = int(partes[1].strip())
+                especificaciones = partes[2].strip()
+
+                producto = productos.find_one({ "_id": producto_id })
+                if not producto:
+                    raise ValueError(f"Producto no encontrado: {producto_id}")
+
+                precio_unitario = float(producto["precio"])
+                total += cantidad * precio_unitario
+
+                pedido.append({
+                    "producto": producto_id,
+                    "cantidad": cantidad,
+                    "especificaciones": especificaciones
+                })
+
+            orden = {
+                "_id": ObjectId(),
+                "nombreCliente": ObjectId(cliente_id),
+                "pedido": pedido,
+                "precioTotal": round(total, 2),
+                "estado": False,
+                "fecha": fecha_dt,
+                "metodoPago": metodo
+            }
+
+            ordenes.insert_one(orden)
+            e9.insert(0, str(orden["_id"]))
+            messagebox.showinfo("Orden creada", "La orden fue registrada con éxito")
+            
+            # messagebox.showinfo("Orden creada", f"ID de la orden: {orden['_id']}")
+
+        except Exception as e:
+            messagebox.showerror("Error", f"Ocurrió un error:\n{e}")
+
+    btn4 = Button(parent, text="Crear orden", fg="#ffffff", font=("Arial", 12), bg="#78290f",
+                  command=guardar_orden)
     btn4.place(x=570, y=90, height=30, width=160)
 
-    l6 = Label(parent, text="orden:", fg="#6c584c", font=("Arial", 12))
-    l6.place(x=10, y=130)
 
 
 def ver_orden(parent, ordenes):
