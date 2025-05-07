@@ -37,13 +37,14 @@ def crear_orden(parent, ordenes, productos, combos):
     l7 = Label(parent, text="Ingrese (ID producto, cantidad, especificaciones):", fg="#6c584c", font=("Arial", 12))
     l7.place(x=10, y=250)
 
-    text_items = Text(parent, width=70, height=5, font=("Arial", 12), bg="#f4f1e6")
+    text_items = Text(parent, width=60, height=5, font=("Arial", 12), bg="#f4f1e6")
     text_items.place(x=10, y=280)
 
     l9 = Label(parent, text="Id orden:", fg="#6c584c", font=("Arial", 12))
     l9.place(x=10, y=380)
     e9 = Entry(parent, width=30, font=("Arial", 12), bg="#f4f1e6")
     e9.place(x=280, y=380)
+    e9.config(state="readonly")
 
 
     def guardar_orden():
@@ -94,7 +95,10 @@ def crear_orden(parent, ordenes, productos, combos):
             }
 
             ordenes.insert_one(orden)
+            e9.config(state="normal")
+            e9.delete(0, "end")
             e9.insert(0, str(orden["_id"]))
+            e9.config(state="readonly")
             messagebox.showinfo("Orden creada", "La orden fue registrada con éxito")
             
             # messagebox.showinfo("Orden creada", f"ID de la orden: {orden['_id']}")
@@ -104,7 +108,7 @@ def crear_orden(parent, ordenes, productos, combos):
 
     btn4 = Button(parent, text="Crear orden", fg="#ffffff", font=("Arial", 12), bg="#78290f",
                   command=guardar_orden)
-    btn4.place(x=570, y=90, height=30, width=160)
+    btn4.place(x=570, y=90, height=70, width=160)
 
 
 
@@ -197,6 +201,59 @@ def cambiar_estado_orden(parent, ordenes):
     btn5 = Button(parent, text="ver cantidad", fg="#ffffff", font=("Arial", 12), bg="#78290f", 
                         command=lambda: ver_cantidad_ordenes(ordenes))
     btn5.place(x=570, y=150, height=30, width=160)
+
+    l10 = Label(parent, text="cambiar varias ordenes:",  fg="#ffffff", font=("Arial", 12), bg="#a98467") 
+    l10.place(x=10, y=190)
+
+    l6 = Label(parent, text="id ordenes:", fg="#6c584c", font=("Arial", 12))
+    l6.place(x=10, y=220)
+
+    text_items = Text(parent, width=60, height=10, font=("Arial", 12), bg="#f4f1e6")
+    text_items.place(x=10, y=250)
+
+    btn6 = Button(parent, text="cambiar estado", fg="#ffffff", font=("Arial", 12), bg="#78290f", 
+                    command=lambda: cambiar_estados(ordenes, text_items.get("1.0", "end-1c")))
+    btn6.place(x=570, y=220, height=30, width=160)
+
+    def cambiar_estados(ordenes, items):
+        texto = items.strip()
+        if not texto:
+            messagebox.showerror("Error", "Ingrese al menos un id de orden")
+            return
+        try:
+            #convertir en ObjectId
+            ids = [
+                ObjectId(line.strip())
+                for line in texto.splitlines()
+                if ObjectId.is_valid(line.strip())
+            ]
+
+            if not ids:
+                messagebox.showerror("Error", "No se ingresaron IDs vslidos")
+                return
+
+            #buscar ordenes delos ids
+            ordenes_encontradas = list(ordenes.find({"_id": {"$in": ids}}))
+
+            if not ordenes_encontradas:
+                messagebox.showerror("Error", "No se encontraron órdenes con los IDs dados")
+                return
+
+            #determinar el estado actual y cambiarlo por el contrario
+            estado_actual = ordenes_encontradas[0]["estado"]
+            nuevo_estado = not estado_actual
+
+            #actualizar todas las ordenes encontradas
+            resultado = ordenes.update_many(
+                {"_id": {"$in": ids}},
+                {"$set": {"estado": nuevo_estado}}
+            )
+
+            messagebox.showinfo("Actualizacion exitosa", f"Se actualizaron {resultado.modified_count} órdenes a estado {'entregada' if nuevo_estado else 'no entregada'}.")
+
+        except Exception as e:
+            messagebox.showerror("Error", f"eror:\n{e}")
+        
 
     def ver_cantidad_ordenes(ordenes):
         pipeline = [
