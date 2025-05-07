@@ -80,7 +80,7 @@ def landingPage(tipoCuenta=None):
 
     l6 = Label(tabLanging, text="Ingrese su contraseña:", fg="#6c584c", font=("Arial", 12))
     l6.place(x=10, y=140)
-    e6 = Entry(tabLanging, width=30, font=("Arial", 12), bg="#f4f1e6")
+    e6 = Entry(tabLanging, width=30, font=("Arial", 12), bg="#f4f1e6", show="*")
     e6.place(x=190, y=140)
 
 
@@ -172,11 +172,12 @@ def iniciarSesion():
                 tabs.append(frame)
 
                 if nombre == mesero[0]:
-                    pass
+                    crear_orden(frame, ordenes, productos, combos)
                 elif nombre == mesero[1]:
-                    pass
+                    ver_orden(frame, ordenes)
                 if nombre == mesero[2]:
-                    pass
+                    cambiar_estado_orden(frame, ordenes)
+
 
 
 v = Tk()
@@ -193,7 +194,7 @@ e2.insert(0, "johnsonkathryn@example.net")
 
 l3 = Label(v, text="Ingrese su contraseña:", fg= "#6c584c" , font=("Arial", 12),bg="#e3d5ca")
 l3.place(x=10, y=110)
-e3 = Entry(v, width=30, font=("Arial", 12), bg="#f4f1e6")
+e3 = Entry(v, width=30, font=("Arial", 12), bg="#f4f1e6", show="*")
 e3.place(x=190, y=110)
 e3.insert(0, "*7ZY)P^tMq")
 
