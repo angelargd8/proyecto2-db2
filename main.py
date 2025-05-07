@@ -109,8 +109,8 @@ def iniciarSesion():
         tipoCuenta = login(usuarios, correo, contrasena)
 
         administrador = ["agregar/eliminar restaurante", "agregar/eliminar producto", "agregar/eliminar menu", "editar menu", "eliminar usuario"]
-        consultor = ["obtener estadisticas", "reporte de resenias con ordenamiento arbitrario"]
-        cliente = ["crear/eliminar cuenta", "editar informacion de la cuenta", "realizar una resena de un producto especifico", "realizar una resena de un combo"]
+        consultor = [ "reporte de resenias con ordenamiento arbitrario"]
+        cliente = ["crear/eliminar cuenta", "realizar una resena de un producto especifico", "realizar una resena de un combo"]
         mesero = ["crear orden", "ver orden", "cambiar el estado de la orden"]
     
         global lrol2
@@ -147,8 +147,7 @@ def iniciarSesion():
                 tab.add(frame, text=nombre)
                 tabs.append(frame)
 
-                
-                if nombre == consultor[1]:
+                if nombre == consultor[0]:
                     consultas(frame, ordenes, resenias, productos)
 
         elif tipoCuenta == "cliente":
@@ -160,11 +159,10 @@ def iniciarSesion():
                 if nombre == cliente[0]:
                     pass
                 elif nombre == cliente[1]:
-                    pass
+                    add_resenia_producto(frame, productos)
                 if nombre == cliente[2]:
-                    pass
-                elif nombre == cliente[3]:
-                    pass
+                    add_resenia_combo(frame, combos)
+                
                 
 
         elif tipoCuenta == "mesero":
@@ -191,13 +189,13 @@ l2 = Label(v, text="Ingrese su correo:", fg= "#6c584c" , font=("Arial", 12),bg="
 l2.place(x=10, y=80)
 e2 = Entry(v, width=30, font=("Arial", 12), bg="#f4f1e6")
 e2.place(x=190, y=80)
-e2.insert(0, "meyermichael@example.net")
+e2.insert(0, "johnsonkathryn@example.net")
 
 l3 = Label(v, text="Ingrese su contraseña:", fg= "#6c584c" , font=("Arial", 12),bg="#e3d5ca")
 l3.place(x=10, y=110)
 e3 = Entry(v, width=30, font=("Arial", 12), bg="#f4f1e6")
 e3.place(x=190, y=110)
-e3.insert(0, "bso78MQw7^")
+e3.insert(0, "*7ZY)P^tMq")
 
 lrol = Label(v, text="Rol:", fg= "#6c584c" , font=("Arial", 12),bg="#e3d5ca")
 lrol.place(x=10, y=145)

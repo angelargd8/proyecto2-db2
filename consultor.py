@@ -6,24 +6,6 @@ from bson import ObjectId
 
 
 
-# estadisticas
-def estadisticas(parent, ordenes, resenias):
-    l1 = Label(parent, text="Estadisticas:", fg="#6c584c", font=("Arial", 24))
-    l1.place(x=10, y=15)
-
-    l10 = Label(parent, text="Promedio de calificaciones por producto:", fg="#ffffff", 
-                font=("Arial", 12), bg="#a98467")
-    l10.place(x=10, y=90)
-    btn1 = Button(parent, text="Generar", fg="#ffffff", font=("Arial", 12), bg="#78290f",   )
-    btn1.place(x=100, y=140, height=30, width=160)
-
-    l2 = Label(parent, text="Promedio de precio de los pedidos:", fg="#ffffff", 
-                font=("Arial", 12), bg="#a98467")
-    l2.place(x=10, y=180)
-    btn2 = Button(parent, text="Generar", fg="#ffffff", font=("Arial", 12), bg="#78290f",   )
-    btn2.place(x=100, y=210, height=30, width=160)
-
- 
 # consultas 
 def consultas(parent, ordenes, resenias, productos):
     l1 = Label(parent, text="Consultas:", fg="#6c584c", font=("Arial", 24))
